@@ -107,7 +107,7 @@ const Hero3 = ({ data }) => {
                     {typeof elements.sideBottom === "string" && (
                       <a
                         // href={elements.sideBottomLnk}
-                        href="https://pavdental.setmore.com/pav"
+                        href="https://pavdental.setmore.com/"
                         className="st-btn st-style1 st-size-medium st-colorRed st-smooth-move"
                       >
                         <BsFillCalendar2CheckFill />
@@ -123,7 +123,7 @@ const Hero3 = ({ data }) => {
                   {typeof elements.buttonBottom === "string" && (
                     <a
                       href={elements.buttonBottomLnk}
-                      // to= "https://pavdental.setmore.com/pav"
+                      // to= "https://pavdental.setmore.com/"
                       className="st-btn st-style1 st-size-medium st-color1 st-smooth-move"
                     >
                       <BsFillCalendar2CheckFill />

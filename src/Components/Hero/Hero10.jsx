@@ -20,13 +20,13 @@ const Hero10 = ({ data }) => {
               <div className="st-hero-subtitle">{parser(subHeading)}</div>
               <div className="st-hero-btn">
                 {/* <ScrollLink
-                  to="https://pavdental.setmore.com/pav"
+                  to="https://pavdental.setmore.com/"
                   className="st-btn st-style1 st-color1 st-smooth-move"
                 >
                   Appointment
                 </ScrollLink> */}
                  <a
-                  href="https://pavdental.setmore.com/pav"
+                  href="https://pavdental.setmore.com/"
                   className="st-btn st-style1 st-color1 st-smooth-move"
                 >
                   Appointment

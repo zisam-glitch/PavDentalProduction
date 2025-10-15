@@ -18,7 +18,7 @@ const heroData = [
     flex: "none",
     buttonTop: "ACCESSIBLE SMILES",
     buttonBottomLnk:
-      "https://pavdental.setmore.com/pav",
+      "https://pavdental.setmore.com/",
     buttonBottom: "Book - £35",
     bgImg:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1693907556/lovely-woman-smile_spcbk4.jpg",
@@ -35,7 +35,7 @@ const heroData = [
     buttonBottomLnk: "tel:0800 1938 786",
     sideBottom: "Book Online",
     sideBottomLnk:
-      "https://pavdental.setmore.com/pav",
+      "https://pavdental.setmore.com/",
     bgImg:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1716633970/dental-bg-1024x683_drc1la.jpg",
     bgRevert: "bg-revert",

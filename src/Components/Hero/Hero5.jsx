@@ -34,7 +34,7 @@ const Hero5 = ({ data }) => {
               </div>
               <div className="st-hero-btn">
                 <ScrollLink
-                  to="https://pavdental.setmore.com/pav"
+                  to="https://pavdental.setmore.com/"
                   className="st-btn st-style1 st-size-medium st-color1 st-smooth-move"
                 >
                   Appointment

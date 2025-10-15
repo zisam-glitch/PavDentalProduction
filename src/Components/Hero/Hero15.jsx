@@ -16,7 +16,7 @@ const Hero15 = ({ data }) => {
             <div className="st-hero-subtitle">{parser(text)}</div>
             <div className="btn-flex">
               <Link
-                to="https://pavdental.setmore.com/pav"
+                to="https://pavdental.setmore.com/"
                 className="st-btn st-style1 st-color4 bg-blue  st-size-medium st-smooth-move"
               >
                 Make an Appointment 
