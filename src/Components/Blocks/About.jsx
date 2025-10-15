@@ -12,7 +12,7 @@ export default function Cta() {
           <h1>Say Goodbye TO Your Dental Pain!</h1>
         </div>
         <Link
-          to="https://sb65.setmore.com/beta"
+          to="https://pavdental.setmore.com/pav"
           target="_blank"
           className="button-cta"
         >
