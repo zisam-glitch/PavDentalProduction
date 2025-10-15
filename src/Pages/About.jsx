@@ -25,7 +25,7 @@ const aboutData2 = {
     'The Dream and The Team    ',
   subTitle:
     "Dr. Pav's dream was shared, nurtured, and diligently planned alongside his close friend and colleague, Dr. Hassan. Together, they meticulously crafted a plan, encompassing these crucial steps: <br/> <br/>  <span>Dream : </span> Envisioning a patient-centered clinic where the best dental care meets the flexibility of mobile services.<br/> <span>Creating a Partnership : </span> Building a foundation of shared passion and complementary expertise.<br/> <span>Reaching Shared Value between the Partnership : </span> Defining their commitment to patient well-being and professional excellence.<br/> <span>Creating a Very Detailed Roadmap : </span> Outlining every stage, from cutting-edge technology acquisition to community outreach.",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760540011/Pav_20250911_115422_0000_vy3vhp.png",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760545689/IMG-20251015-WA0016_a22xna.jpg",
 };
 const aboutData = {
   title:
