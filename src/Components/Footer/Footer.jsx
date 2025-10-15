@@ -157,7 +157,7 @@ const Footer = ({ data, varient }) => {
                 <a target="_blank" href="https://growriva.com/">
                   <img
                     className="w-4"
-                    src="https://res.cloudinary.com/db1i46uiv/image/upload/v1733691841/Icone_hlvcsq.png"
+                    src="https://res.cloudinary.com/db1i46uiv/image/upload/v1760541102/Group_fzixh2.svg"
                     alt=""
                   />
                 </a>
