@@ -8,7 +8,7 @@ import { IoIosCall } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Hero3 = ({ data }) => {
-  console.log('daataaaa',data)
+  console.log("daataaaa", data);
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <div
       {...props}
@@ -42,8 +42,8 @@ const Hero3 = ({ data }) => {
     infinite: true,
     loop: true,
     speed: 800,
-    autoplay: true, 
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 30000,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
@@ -55,7 +55,7 @@ const Hero3 = ({ data }) => {
       <Slider {...settings} className="st-slider-style1 st-slider-animation1">
         {data.map((elements, index) => (
           <div className="st-hero st-style1 st-size1" key={index} id="home">
-            {console.log('elemnt',elements)}
+            {console.log("elemnt", elements)}
             <div
               className="st-hero-bg st-dynamic-bg st-bg"
               style={{ backgroundImage: `${elements.bgGradient}` }}
@@ -63,7 +63,7 @@ const Hero3 = ({ data }) => {
               {" "}
             </div>
             <div
-              className="st-hero-bg st-dynamic-bg bg-revert st-bg"
+              className={`st-hero-bg st-dynamic-bg ${elements.bgRevert} st-bg`}
               style={{ backgroundImage: `url(${elements.bgImg})` }}
             />
             <div className="container">
@@ -78,7 +78,9 @@ const Hero3 = ({ data }) => {
                   </ScrollLink>
                 )}
                 {typeof elements.title === "string" && (
-                  <h1 className="st-hero-title blue">{parser(elements.title)}</h1>
+                  <h1 className="st-hero-title blue">
+                    {parser(elements.title)}
+                  </h1>
                 )}
                 {typeof elements.subTitle === "string" && (
                   <div className="st-hero-subtitle">

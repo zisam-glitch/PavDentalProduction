@@ -22,6 +22,7 @@ const heroData = [
     buttonBottom: "Book - £35",
     bgImg:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1693907556/lovely-woman-smile_spcbk4.jpg",
+    bgRevert: "",
   },
 
   {
@@ -37,6 +38,7 @@ const heroData = [
       "https://pavdental.setmore.com/pav",
     bgImg:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1716633970/dental-bg-1024x683_drc1la.jpg",
+    bgRevert: "bg-revert",
   },
   {
     title:
@@ -47,6 +49,7 @@ const heroData = [
     flex: "none",
     bgImg:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1693907769/cosmetologists-hands-making-medical-botox-injections-beautiful-blonde-skin-lifting-facial-treatment-beauty-spa_y9cb2v.jpg",
+    bgRevert: "bg-revert",
   },
 ];
 
