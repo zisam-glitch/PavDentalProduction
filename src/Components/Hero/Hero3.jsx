@@ -106,7 +106,6 @@ const Hero3 = ({ data }) => {
                     </a>
                     {typeof elements.sideBottom === "string" && (
                       <a
-                        // href={elements.sideBottomLnk}
                         href="https://pavdental.setmore.com/"
                         className="st-btn st-style1 st-size-medium st-colorRed st-smooth-move"
                       >
@@ -122,6 +121,7 @@ const Hero3 = ({ data }) => {
                 >
                   {typeof elements.buttonBottom === "string" && (
                     <a
+                      target="_blank"
                       href={elements.buttonBottomLnk}
                       // to= "https://pavdental.setmore.com/"
                       className="st-btn st-style1 st-size-medium st-color1 st-smooth-move"

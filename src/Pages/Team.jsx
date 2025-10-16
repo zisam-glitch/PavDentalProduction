@@ -36,10 +36,9 @@ const team = [
     place:
       "Pav Dental, 786 Leeds Road, Bradford, BD3 9TY Special interests: Urgent dental care, oral surgery (simple & complex extractions), restorative dentistry, dento-alveolar trauma, anxious patient care",
     qualifications: [
-      "MDDr, Charles University in Prague – First Faculty of Medicine (2016)",
-      "Postgraduate Diploma in Restorative and Aesthetic Dentistry, Dominic Hassall Training Institute (Completed 2019)",
-      "Enrolled in MSc Oral Surgery, University of Central Lancashire (UCLan), starting September 2026",
-      "GDC-registered dentist (No. 262970)",
+      "DDS, University of Valencia, Spain",
+      "MSc in Implantology, Spain",
+      "GDC-registered dentist",
     ],
     qualificationstitle: "Qualifications and membership",
     clinicalscope:
@@ -75,6 +74,36 @@ const team = [
     date: "Fridays and select Saturdays (by referral and appointment)",
     language: "English, Italian",
     contact: "Book an implant consultation — 0800 1938 786 or hello@pavdental.com",
+  },
+
+  {
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760639135/WhatsApp_Image_2025-10-17_at_12.25.11_AM_nufmbp.jpg",
+    name: "Raheela Shafiq",
+    designation: "Compliance Manager",
+    bio: "Raheela Shafiq leads compliance and governance at Pav Dental. With a strong focus on regulatory standards, risk management, and patient safety, she ensures that every process—from clinical care to data management—meets legal, ethical, and industry benchmarks.",
+    education:
+      "Raheela has experience in compliance, audit, or healthcare quality assurance.",
+    specializations: [
+      "Overseeing CQC, HTM, and dental regulatory compliance",
+      "Managing GDPR, data protection, and patient confidentiality protocols",
+      "Liaising with auditors, external regulators, and ensuring statutory adherence",
+      "Conducting internal audits, risk assessments, and corrective action tracking",
+      "Delivering staff training in compliance, safeguarding, infection control, health & safety",
+      "Handling incident investigations, complaints review, and policy updates",
+      "Keeping protocols and SOPs up to date with regulatory changes",
+    ],
+    specializationstitle: "Key Responsibilities",
+    values: "Compliance is more than rules — it’s a promise to our patients that we operate with integrity, accountability, and excellence every day.",
+    qualifications: [
+      "Diploma in Business management",
+      "Certification in Compliance, Risk Management, or Regulatory Affairs",
+      "GDPR / Data Protection certification",
+      "Training in safeguarding, health & safety, and quality systems",
+    ],
+    qualificationstitle: "Qualifications and training",
+    date: "Monday – Friday",
+    language: "English, Urdu",
+    contact: "hello@pavdental.com",
   },
 
 

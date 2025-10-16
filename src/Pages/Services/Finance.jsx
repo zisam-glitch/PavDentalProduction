@@ -11,6 +11,7 @@ const heroData = [
     title: " Flexible Payment Options <br/> for Your Treatment    ",
     flex: "none",
     buttonBottom: "Book appointment",
+    buttonBottomLnk: "https://pavdental.setmore.com/",
     bgGradient: "",
     subTitle: `Patient Finance offers flexible payment options for dental <br/> 
     treatments. Choose from various plans, including 0% APR finance for<br/>

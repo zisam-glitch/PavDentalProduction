@@ -16,8 +16,9 @@ export default function Contact() {
           <div>
             <h4 className="blue">Our Address</h4>
             <p>786 Leeds Road, Bradford, BD3 9TY</p>
-            <p>hello@pavdental.com</p>
-            <p>0800 1938 786</p>
+            <p> <a href="mailto:hello@pavdental.com">hello@pavdental.com</a></p>
+            <p><a href="tel:0800 1938 786">0800 1938 786</a></p>
+            <p>Whatsapp: <a target="_blank" rel="noreferrer" href="https://wa.me/44731187416"> +44 731 187 416</a></p>
           </div>
           <div class="st-height-b20 st-height-lg-b20"></div>
           <div>
@@ -30,7 +31,7 @@ export default function Contact() {
           <div class="st-height-b20 st-height-lg-b20"></div>
           <div>
             <h4 className="blue">Practice Manager</h4>
-            <p>hello@pavdental.com</p>
+            <p><a href="mailto:hello@pavdental.com">hello@pavdental.com</a></p>
           </div>
         </div>
         <div class="st-height-b0 st-height-lg-b80"></div>
