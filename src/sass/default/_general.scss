@@ -1555,7 +1555,12 @@ $white: #ffffff;
   left: 0px !important;
   top: 0px !important;
 }
-
+.mobile-visible {
+  display: none !important;
+}
+.mobile-hidden {
+  display: block !important;
+}
 /* Media query for medium screens and above */
 @media (min-width: 768px) {
   .grid-container {
@@ -1566,7 +1571,12 @@ $white: #ffffff;
         1fr);
     /* 2 columns on medium screens and above */
   }
-
+  .mobile-hidden {
+    display: none !important;
+  }
+  .mobile-visible {
+    display: block !important;
+  }
   .h-750px {
     height: 570px;
   }
