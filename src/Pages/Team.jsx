@@ -36,9 +36,10 @@ const team = [
     place:
       "Pav Dental, 786 Leeds Road, Bradford, BD3 9TY Special interests: Urgent dental care, oral surgery (simple & complex extractions), restorative dentistry, dento-alveolar trauma, anxious patient care",
     qualifications: [
-      "DDS, University of Valencia, Spain",
-      "MSc in Implantology, Spain",
-      "GDC-registered dentist",
+      "MDDr, Charles University in Prague – First Faculty of Medicine (2016)",
+      "Postgraduate Diploma in Restorative and Aesthetic Dentistry, Dominic Hassall Training Institute (Completed 2019)",
+      "Enrolled in MSc Oral Surgery, University of Central Lancashire (UCLan), starting September 2026",
+      "GDC-registered dentist (No. 262970)",
     ],
     qualificationstitle: "Qualifications and membership",
     clinicalscope:
@@ -64,11 +65,9 @@ const team = [
     philosophy:
     "Every patient deserves a confident smile that feels and functions naturally. I focus on precision, comfort, and clear communication at every stage of implant treatment.",
     qualifications: [
-      "DDS (Italy)",
-      "Postgraduate Certificate in Implantology (UK)",
-      "Member of the International Team for Implantology (ITI)",
-      "GDC-registered dentist (insert number if available)",
-      "Enhanced DBS, Medical Emergencies & ILS certified",
+      "DDS, University of Valencia, Spain",
+      "MSc in Implantology, Spain",
+      "GDC-registered dentist",
     ],
     qualificationstitle: "Qualifications and membership",
     date: "Fridays and select Saturdays (by referral and appointment)",
