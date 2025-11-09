@@ -1,42 +1,54 @@
 import React from "react";
 import Hero3 from "../../Components/Hero/Hero3";
 import Pricing from "../../Components/Slider/PriceSlider2";
-import Accordion from "../../Components/Accordion/Accordion1";
-import About from "../../Components/About/AboutC";
+import AboutC from "../../Components/About/AboutC";
+import AboutA from "../../Components/About/AboutA";
 import parse from "html-react-parser";
 import BookButton from "../../Components/BookButton/BookButton";
+import Contact from "../../Components/Contact/Contact";
+import Accordion from "../../Components/Accordion/Accordion2";
+
 
 const heroData = [
   {
-    title: " Flexible Payment Options <br/> for Your Treatment    ",
+    title: "0% Finance Available On <br/> Private Treatments",
     flex: "none",
     buttonBottom: "Book appointment",
     buttonBottomLnk: "https://pavdental.setmore.com/",
     bgGradient: "",
-    subTitle: `Patient Finance offers flexible payment options for dental <br/> 
-    treatments. Choose from various plans, including 0% APR finance for<br/>
-     shorter terms. Get a personalized estimate and apply easily online.`,
+    subTitle: `Don’t let the cost of treatment get in the way of your smile.<br/> 
+    Spread the cost of your dental treatment`,
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1717662518/New_Project_12_bvxjhn.png",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762671199/Untitled_design_1_eoh2bh.png",
   },
 ];
 
+
+const aboutData = {
+  title:
+    "Why use patient finance?",
+  subTitle: `Everyone deserves to feel confident about their smile. But the cost of treatment can sometimes get in the way of improving the appearance and health of your teeth. That’s why we’re introducing Tabeo Personal Finance who can arrange patient finance as a helpful way of spreading the cost of your treatment.
+  <br/><br/>
+  You can choose a payment plan that fits your budget, making it easier to start your treatment without delay. With simple monthly installments and a quick, hassle-free application process, you get the flexibility you need while keeping your smile journey stress free. Our goal is to make quality dental care accessible, so you can focus on feeling good about your smile instead of worrying about the cost.`,
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762677014/19448_sftnrt.jpg",
+};
+
 const vacancies = [
   {
-    title: "Flexible Payment Plans",
-    text: "Allows you to spread the cost - you can opt to have the treatment you want, when you want it, on a repayment plan to suit your circumstances.",
+    title: "Allows you to spread the cost ",
+    text: "you can opt to have the treatment you want, when you want it, on a repayment plan to suit your circumstances",
   },
   {
-    title: "Expanded Treatment Options",
-    text: "Wider choice of treatments - you can access a fuller range of treatments and choose the perfect option for you.",
+    title: "Wider choice of treatments ",
+    text: "you can access a fuller range of treatments and choose the perfect option for you.",
   },
   {
-    title: "Tailored Payment Terms",
-    text: "Payment terms to suit you - with a range of credit and payment options available, you can choose the one best suited to your circumstances.",
+    title: "Payment terms to suit you ",
+    text: "with a range of credit and payment options available, you can choose the one best suited to your circumstances.",
   },
   {
-    title: "Deposit-Free Options",
-    text: "No up-front deposit option - with no initial financial outlay, you can avoid dipping into your savings or having to find a lump sum to start your treatment.",
+    title: "No up-front deposit option",
+    text: "with no initial financial outlay, you can avoid dipping into your savings or having to find a lump sum to start your treatment.",
   },
 ];
 
@@ -59,71 +71,66 @@ const faqData = {
   title: "Frequently Asked Question  ",
   faqItems: [
     {
-      title: "How do I schedule a virtual consultation with PavDental?",
+      title: "Who can benefit?",
       content:
-        "To schedule a virtual consultation with PavDental, simply log into your account on the PavDental website or mobile app and select the virtual consultation option. From there, you will be able to choose a convenient time and date for your appointment",
+        "Just about anyone over the age of 18, subject to status. You don’t have to belong to a private plan or be a regular visitor at this practice."
     },
     {
-      title:
-        "Do I need to have any specific technology to use the virtual consultation service?",
+      title: "What can I use it for?",
       content:
-        "You can acess the service from any device with an internet connection and a camera, such as a smartphone, tablet, or computer          .",
+        "You can use a payment plan to pay for most treatments, especially cosmetic, aesthetic, orthodontic, or dental implant work. Ask our reception team if you'd like to check your treatment eligibility."
     },
     {
-      title: "How does the virtual consultation work?",
+      title: "How much can I borrow?",
       content:
-        "The virtual consultation works by connecting you with a licensed dentist through video conferencing. The dentist will be able to see and hear you, and you will be able to see and hear the dentist. During the consultation, the dentist will assess your dental needs and discuss your treatment options.",
+        "Depending on the type of credit, you can borrow from £99, subject to status. Most patients receive a decision within a day, allowing treatment plans to be agreed quickly."
     },
     {
-      title: "What happens after the virtual consultation?",
+      title: "How do I make the repayments?",
       content:
-        "Following the virtual consultation, if deemed necessary prior to an in-person visit or primary care, the dentist will issue an electronic prescription for any required treatments or medications. This prescription will be transmitted to your preferred pharmacy, allowing you to conveniently retrieve it.",
+        "Repayments are made monthly over an agreed term, similar to any other loan. Payments are collected via direct debit."
     },
     {
-      title:
-        "How long does it take to receive a prescription after the virtual consultation?",
+      title: "How much will I pay?",
       content:
-        "After your virtual consultation with the dentist, they will promptly e-file your prescription with your preferred pharmacy. Its availability to retrieve from your preferred pharmacy may depend on their stock and business hours.",
+        "We provide clear repayment schemes with a quotation showing your monthly payment and total interest payable. No hidden costs, and an upfront deposit is not always required."
     },
     {
-      title: "How much does a prescription cost?",
-      content: "Flat rate £25.",
+      title: "What are the repayment terms?",
+      content:
+        "Designated members of our practice team will go through the available terms and help you choose the most suitable repayment period."
     },
     {
-      title: "What is a virtual video consultation?",
+      title: "How do I apply?",
       content:
-        "A virtual video dental consultation is a way for you to connect with a dentist via video call. During the consultation, you can discuss your oral health concerns and treatment plan, and get any questions answered.",
+        "After agreeing on your treatment and cost with your clinician, we take a few basic details and email you the application. Once approved and processed, you’ll receive written confirmation from the credit provider."
     },
     {
-      title: "How do I book a virtual video consultation?",
+      title: "Who is the credit provider?",
       content:
-        "You can book a virtual video dental consultation through PavDental's platform, either as a subscriber or on a pay-as-you-go basis. Simply select the type of appointment you need, choose a date and time, and you will be connected with a qualified dentist.",
+        "Credit is provided by Tabeo Finance."
     },
     {
-      title:
-        "What type of servies can I receive during a virtual video dental consultation?",
+      title: "What happens if my treatment costs more than expected?",
       content:
-        "During a virtual video dental consultation, you can receive a wide range of services, including preventive care, smile correction, night guards, remineralization trays, sleep apnea devices, electronic prescriptions, free specialist referrals, and more.",
+        "We will notify you immediately, and you may choose to apply for an additional facility to cover the extra costs."
     },
     {
-      title:
-        "What equipment do I need for a virtual video dental consultation?",
+      title: "What happens if my treatment costs less than expected?",
       content:
-        "All you need for a virtual video dental consultation is a device with a camera, such as a smartphone, tablet, or computer, and a reliable internet connection.",
+        "The remaining balance of your loan will be reviewed by the lender, and they will discuss options for reducing your loan."
     },
     {
-      title:
-        "Can I receive a diagnosis and treatment plan during a virtual video dental consultation?",
+      title: "How often can I use the facility?",
       content:
-        "Yes, you can receive a diagnosis and treatment plan during a virtual video dental consultation. Your dentist will assess your oral health, answer any questions you have, and provide you with a personalized treatment plan.",
+        "You can apply for a payment plan for each course of treatment, subject to status."
     },
     {
-      title:
-        "How long does a virtual video dental consultation typically last?",
+      title: "How do I complain about my financial product?",
       content:
-        "Virtual video dental consultations typically last 30 minutes. You will have ample time to discuss your oral health concerns and receive a diagnosis and treatment plan from your dentist.",
-    },
-  ],
+        "If you wish to raise a complaint, please contact our Patient Support Team. If your agreement is FCA regulated and you remain dissatisfied, you may refer your complaint to the Financial Ombudsman Service free of charge within six months of our final response. Visit www.financial-ombudsman.org.uk for more information."
+    }
+  ]
 };
 
 const depositOptions = [
@@ -200,6 +207,7 @@ const VirtualDentistry = () => {
     <>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero3 data={heroData} />
+      <AboutA data={aboutData} />
       <div className="st-height-b120 st-height-lg-b80" />
       <h2 className="blue center">The advantages at a glance</h2>
       <div className="st-height-b80 st-height-lg-b80" />
@@ -250,7 +258,7 @@ const VirtualDentistry = () => {
       </div>
       <div className="st-height-b120 st-height-lg-b80" />
       <h2 className="blue center">
-        how much will I pay each month and for how long?
+        How much will I pay each month and for how long?
       </h2>
       <div className="st-height-b80 st-height-lg-b80" />
       <div className="grid-class container">
@@ -287,7 +295,9 @@ const VirtualDentistry = () => {
       </div>
       <div className="st-height-b120 st-height-lg-b80" />
 
-      {/* <Accordion data={faqData} /> */}
+      <Accordion data={faqData} />
+      <Contact />
+
       <BookButton />
     </>
   );
