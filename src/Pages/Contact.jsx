@@ -18,7 +18,7 @@ export default function Contact() {
             <p>786 Leeds Road, Bradford, BD3 9TY</p>
             <p> <a href="mailto:hello@pavdental.com">hello@pavdental.com</a></p>
             <p><a href="tel:0800 1938 786">0800 1938 786</a></p>
-            <p>Whatsapp: <a target="_blank" rel="noreferrer" href="https://wa.me/44731187416"> +44 731 187 416</a></p>
+            <p>Whatsapp: <a target="_blank" rel="noreferrer" href="https://wa.me/447311871456"> +44 7311 871456</a></p>
           </div>
           <div class="st-height-b20 st-height-lg-b20"></div>
           <div>

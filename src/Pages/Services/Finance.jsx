@@ -12,6 +12,7 @@ import Accordion from "../../Components/Accordion/Accordion2";
 const heroData = [
   {
     title: "0% Finance Available On <br/> Private Treatments",
+    mobileTitle: "0% Finance Available <br/>  On Private Treatments",
     flex: "none",
     buttonBottom: "Book appointment",
     buttonBottomLnk: "https://pavdental.setmore.com/",
