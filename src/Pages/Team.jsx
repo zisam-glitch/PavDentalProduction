@@ -107,7 +107,7 @@ const team = [
 
 
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526500/1000025963_1_fqvdgk.jpg",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762883524/unnamed_2_aqgyl9.jpg",
     name: "Waleed Javed",
     designation: "Practice Manager & Treatment Coordinator",
     bio: "Waleed is our Practice Manager and second-in-command at the clinic, ensuring everything runs smoothly from patient care to daily operations. As your main point of contact for treatment journeys, he explains your options, finance, and membership plans clearly, making sure you feel informed and supported from your first call to your final review.",
