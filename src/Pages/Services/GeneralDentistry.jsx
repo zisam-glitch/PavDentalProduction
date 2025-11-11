@@ -6,7 +6,7 @@ import Hero10 from "../../Components/Hero/Hero5";
 import Hero15 from "../../Components/Hero/Hero23";
 import Hero19 from "../../Components/Hero/Hero24";
 import Hero24 from "../../Components/Hero/Hero24";
-import About from "../../Components/About/AboutA";
+import About from "../../Components/About/AboutAH";
 import AboutD from "../../Components/About/AboutD";
 import Contact from "../../Components/Contact/Contact";
 import BookButton from "../../Components/BookButton/BookButton";

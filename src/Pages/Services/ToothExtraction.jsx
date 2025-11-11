@@ -23,7 +23,7 @@ const aboutData = {
   We understand that tooth pain can be unbearable and waiting is not an option. That’s why we guarantee same-day tooth extraction services to provide you with immediate relief. Our highly skilled dental professionals are dedicated to ensuring that your experience is as comfortable and stress-free as possible. Using the latest techniques and state-of-the-art equipment, we can quickly and safely remove the affected tooth, alleviating your pain and preventing further complications. <br/><br/>
 
 In addition to our same-day extraction services, we offer comprehensive aftercare support to help you recover swiftly and return to your daily routine with minimal disruption. Our team is always available to answer any questions and provide guidance on how to care for your mouth post-extraction. `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717827443/man-dentist_dazfgn.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762878007/Gemini_Generated_Image_wkgwfnwkgwfnwkgw_xslyku.png",
 };
 
 const serviceData2 = {
@@ -123,7 +123,7 @@ const aboutData2 = {
     <br/>
     Affordable and Transparent Pricing 
     <br/><br/> `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717793397/dentist-her-clean-orthodontist-office_23-2149195927_h0i2vo.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762879322/New_Project_1_d4crdx.png",
 };
 
 const faqData = {

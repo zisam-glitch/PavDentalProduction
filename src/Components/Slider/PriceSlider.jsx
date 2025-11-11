@@ -107,8 +107,6 @@ const PriceSlider = ({ data }) => {
   // };
   return (
     <section id="pricing">
-      <div className="st-height-b125 st-height-lg-b80" id="home"></div>
-      <div className=" st-height-b80  st-height-lg-b40" id="home"></div>
       <SectionHeading title="Pav Dental Plans" />
       <div className="st-height-b40 st-height-lg-b0" />
 

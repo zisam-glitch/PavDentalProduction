@@ -5,6 +5,17 @@ import Price5 from "../Components/Price/Price5";
 import Price6 from "../Components/Price/Price6";
 import BrandSlider from "../Components/Slider/BrandSlider";
 import About2 from "../Components/About/About2";
+import Hero15 from "../Components/Hero/Hero27";
+
+
+const heroData = {
+  subTitle: "",
+  title: "You don't have to Pay for it all at once.",
+  text: "<br/>With our 0% interest dental finance, treatments from £99 can be started today and paid over convenient monthly instalments.<br/> <br/>  ",
+  imgSrc:
+    "https://res.cloudinary.com/db1i46uiv/image/upload/v1718455041/Screenshot_2024-06-15_183629_o18ipx.png",
+  videoSrc: "https://www.youtube.com/embed/AQ3HzPnwFmY",
+};
 
 const priceData2 = {
   pricePlan: [
@@ -534,6 +545,10 @@ const aboutData2 = {
 const Pricing = () => {
   return (
     <>
+          <div className="st-height-b125 st-height-lg-b80" id="home"></div>
+
+          <Hero15 data={heroData} />
+
       <PriceSlider data={priceData} />
       <Price2 data={priceData2} varient="st-color2" />
       <Price5 data={priceData15} varient="st-color2" />

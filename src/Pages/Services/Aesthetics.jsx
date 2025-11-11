@@ -11,7 +11,7 @@ import BookButton from "../../Components/BookButton/BookButton";
 const heroData = {
   sliderImages: [
     {
-      img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717683448/cosmetologists-hands-making-medical-botox-injections-beautiful-blonde-skin-lifting-facial-treatment-beauty-spa_y9cb2v_t8nin8.png",
+      img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762864432/Gemini_Generated_Image_dq649ndq649ndq64_mkcf2d.png",
     },
   ],
   heading: "Pav Dental Aesthetics <br /> Seeking Perfection?",
@@ -57,7 +57,7 @@ const aboutData = {
   subTitle: `Experience excellence with our Aesthetics services, where we use only the finest products to ensure exceptional results each time.
 <br/><br/>
   Indulge in the finest aesthetic treatments you'll ever experience. Through meticulous research, we have curated a selection of top-notch products, ensuring utmost quality and satisfaction for our esteemed clients. Prepare to be impressed.`,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717751742/young-beautiful-woman-getting-face-skin-treatment_ii58d6.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762878425/New_Project_muqouf.png",
 };
 const aboutData2 = {
   title: "How We are Keeping  <br/> You Safe    ",

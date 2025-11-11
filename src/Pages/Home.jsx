@@ -4,7 +4,7 @@ import Hero15 from "../Components/Hero/Hero23";
 import Contact from "../Components/Contact/Contact";
 import Department from "../Components/Department/Department";
 import About from "../Components/About/About";
-import About2 from "../Components/About/About2";
+import About2 from "../Components/About/AboutH";
 import PostWrapper from "../Components/Post/PostWrapper";
 import TestimonialSlider from "../Components/Slider/TestimonialSlider";
 import Funfact from "../Components/Funfact/Funfact";
@@ -23,7 +23,7 @@ const heroData = [
       "https://pavdental.setmore.com/",
     buttonBottom: "Book - £35",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1693907556/lovely-woman-smile_spcbk4.jpg",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762862011/Gemini_Generated_Image_dbx48dbx48dbx48d_aeupfd.png",
     bgRevert: "",
   },
 
@@ -39,10 +39,12 @@ const heroData = [
     sideBottomLnk:
       "https://pavdental.setmore.com/",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1716633970/dental-bg-1024x683_drc1la.jpg",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762861656/unnamed_xydpvo.jpg",
     bgRevert: "bg-revert",
   },
   {
+    mobileTitle:
+      "<span> Rediscover Your Youthful  </span> <br /> <span>  Radiance  with Our Premier  </span> <br /> <span>  Aesthetic Treatments </span>",
     title:
       "<span> Rediscover Your Youthful  </span> <br /> <span>  Radiance  with Our Premier  </span> <br /> <span>  Aesthetic Treatments </span>",
     buttonTop: "FACIAL AESTHETICS",
@@ -50,7 +52,7 @@ const heroData = [
     buttonBottomLnkottomLnk: "/services/aesthetics",
     flex: "none",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1693907769/cosmetologists-hands-making-medical-botox-injections-beautiful-blonde-skin-lifting-facial-treatment-beauty-spa_y9cb2v.jpg",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762864432/Gemini_Generated_Image_dq649ndq649ndq64_mkcf2d.png",
     bgRevert: "bg-revert",
   },
 ];
@@ -160,7 +162,7 @@ const testimonialData = [
 
 const postData = [
   {
-    img: "images/blog1.jpg",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762871358/Gemini_Generated_Image_uqrdzpuqrdzpuqrd_redxcw.png",
     title:
       "Creating a Safe and Healthy Environment: The Benefits of Installing an Air Purifier in Dental Clinics",
     date: "April 26, 2023",
