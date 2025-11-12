@@ -16,7 +16,7 @@ const Department = () => {
         "We offer same day emergency dental care 24-hours a day, seven days a week.",
       desc: "We understand that dental emergencies can occur at any time, which is why we offer same day emergency dental care 24-hours a day, seven days a week, including National and Bank Holidays. Our dedicated team is always on hand to provide immediate and effective dental treatment, ensuring that you receive the care you need when you need it most.",
       imgUrl:
-        "https://res.cloudinary.com/db1i46uiv/image/upload/v1762874873/Untitled_design_1_bjqjnu_2_cjrimo.png",
+        "https://res.cloudinary.com/db1i46uiv/image/upload/v1762974521/Untitled_design_1_bjqjnu_2_1_qtped6.png",
     },
     {
       id: 1,

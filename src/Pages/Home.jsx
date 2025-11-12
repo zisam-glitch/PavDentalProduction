@@ -23,7 +23,7 @@ const heroData = [
       "https://pavdental.setmore.com/",
     buttonBottom: "Book - £35",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762862011/Gemini_Generated_Image_dbx48dbx48dbx48d_aeupfd.png",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762974213/IMG_9760_cr2vuc.jpg",
     bgRevert: "",
   },
 
@@ -39,7 +39,7 @@ const heroData = [
     sideBottomLnk:
       "https://pavdental.setmore.com/",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762861656/unnamed_xydpvo.jpg",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/A257CBF2-DA06-4C7E-888B-E6360E5CD321_qmzfab.jpg",
     bgRevert: "bg-revert",
   },
   {
@@ -52,7 +52,7 @@ const heroData = [
     buttonBottomLnkottomLnk: "/services/aesthetics",
     flex: "none",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762864432/Gemini_Generated_Image_dq649ndq649ndq64_mkcf2d.png",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/IMG_9161_ym0sgw.jpg",
     bgRevert: "bg-revert",
   },
 ];
@@ -162,7 +162,7 @@ const testimonialData = [
 
 const postData = [
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762871358/Gemini_Generated_Image_uqrdzpuqrdzpuqrd_redxcw.png",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762975548/IMG_9558_2_snqvwf.jpg",
     title:
       "Creating a Safe and Healthy Environment: The Benefits of Installing an Air Purifier in Dental Clinics",
     date: "April 26, 2023",

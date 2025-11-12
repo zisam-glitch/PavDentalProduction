@@ -21,13 +21,13 @@ const heroData = [
     buttonBottom: "Call us Now <br /> 0800 1938 786",
     sideBottom: "Book Online",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762877489/unnamed_phhfpo.jpg",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762975643/IMG_8723_nxayos.jpg",
   },
 ];
 const aboutData2 = {
   title: "How much does it cost?    ",
   subTitle: `Consultation (include exam, X-rays and diagnosis) appointment fee:<ul><li>£45 Monday to Friday between 9am – 5pm </li><li>£90 Out of Hours – Weekends 9am – 8pm and Weekdays 5pm – 8pm</li> <li>Contact us for prices and appointments after 8pm</li>  </ul> All patients receive an individual treatment plan with clearly illustrated costs prior to undergoing emergency dental treatment. <ul><li>Tooth Extraction – from £95 </li> <li>Filling – from £95</li> <li>Antibiotics – £25 </li><li>Irrigation/cleaning of gums &/or wisdom tooth – £75 </li><li>Dry socket – £60</li><li>Accessing & dressing a tooth – from £170</li><li>Surgical drainage of abscess – £160</li><li>Recement bridge/crown/veneer – from £60 </li> <li>Re-fixing a tooth loosened by trauma – £195</li> </ul> Anyone can book an appointment online with a dentist 24 hours a day, 7 days a week. `   ,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762878007/Gemini_Generated_Image_wkgwfnwkgwfnwkgw_xslyku.png",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762975823/IMG_9444_x51ikj.jpg",
 };
 
 const faqData = {

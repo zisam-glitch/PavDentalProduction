@@ -6,11 +6,10 @@ import Hero10 from "../../Components/Hero/Hero5";
 import Hero15 from "../../Components/Hero/Hero23";
 import Hero19 from "../../Components/Hero/Hero24";
 import Hero24 from "../../Components/Hero/Hero24";
-import About from "../../Components/About/AboutAH";
+import About from "../../Components/About/AboutA";
 import AboutD from "../../Components/About/AboutD";
 import Contact from "../../Components/Contact/Contact";
 import BookButton from "../../Components/BookButton/BookButton";
-import imggg from '../../assets/imges/mobilePagePicture.jpg'
 
 
 const heroData = {
@@ -56,7 +55,7 @@ const aboutData = {
   4. Family Care: General dentistry caters to the dental needs of the entire family, from children to seniors.<br/><br/>
   
     `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717793404/young-female-patient-having-dental-procedure-orthodontist_sd5o6e.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/ac55d081-8e08-44b8-85d6-a1fe35e83000_dudx9v.jpg",
 };
 const aboutData2 = {
   title: "Cost and Insurance    ",
@@ -73,7 +72,7 @@ const aboutData2 = {
   <br/>
   Insurance: Check if the dental practice accepts your insurance.
   <br/><br/> `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717793397/dentist-her-clean-orthodontist-office_23-2149195927_h0i2vo.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762976219/Picture1_hhquoq.jpg",
 };
 
 const serviceData2 = {

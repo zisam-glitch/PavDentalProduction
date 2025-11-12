@@ -46,17 +46,17 @@ const About2 = ({ data }) => {
             data-wow-duration="0.8s"
             data-wow-delay="0.2s"
           >
-            <div className="st-about-img">
+            <div className="st-about-video">
               {/* <div
                 className=""
                 style={{ backgroundImage: `url(${img})` }}
               ></div> */}
               <video
-                className="st-about-img-in st-dynamic-bg st-bg"
+                className=""
                 autoPlay
                 loop
                 muted
-                src="https://res.cloudinary.com/db1i46uiv/video/upload/v1762875938/WhatsApp_Video_2025-11-11_at_9.44.46_PM_pjfpri.mp4"
+                src="https://res.cloudinary.com/db1i46uiv/video/upload/v1762973813/pav_reel_cwshbi.mp4"
               ></video>
             </div>
           </div>

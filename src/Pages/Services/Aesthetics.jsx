@@ -11,7 +11,7 @@ import BookButton from "../../Components/BookButton/BookButton";
 const heroData = {
   sliderImages: [
     {
-      img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762864432/Gemini_Generated_Image_dq649ndq649ndq64_mkcf2d.png",
+      img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/IMG_9161_ym0sgw.jpg",
     },
   ],
   heading: "Pav Dental Aesthetics <br /> Seeking Perfection?",
@@ -62,7 +62,7 @@ const aboutData = {
 const aboutData2 = {
   title: "How We are Keeping  <br/> You Safe    ",
   subTitle: `At Pav Dental, your safety is paramount. We prioritise your well-being and have implemented stringent measures to create a safe and healthy environment. As a regulated clinic under the Care Quality Commission (CQC), we adhere to rigorous guidelines for cleanliness, sterilisation, and staff training. Our team is equipped with the latest safety procedures and personal protective equipment. We maintain social distancing and limit patient numbers to ensure minimal risk of exposure. By choosing Pav Dental, you can trust that we meet the highest standards of quality and safety. Your health and peace of mind are our utmost priority.`,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717751742/young-beautiful-woman-getting-face-skin-treatment_ii58d6.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762878425/New_Project_muqouf.png",
 };
 
 const serviceData2 = {

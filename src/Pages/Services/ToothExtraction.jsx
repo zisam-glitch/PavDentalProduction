@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../../Components/About/AboutA";
+import About from "../../Components/About/AboutAH";
 import AboutD from "../../Components/About/AboutD";
 import Hero15 from "../../Components/Hero/Hero15";
 import Contact from "../../Components/Contact/Contact";
@@ -17,13 +17,17 @@ const heroData = {
   videoSrc: "https://www.youtube.com/embed/AQ3HzPnwFmY",
 };
 
-const aboutData = {
-  title: "Guaranteed Tooth Extraction  Same Day Treatment  ",
-  subTitle: `
-  We understand that tooth pain can be unbearable and waiting is not an option. That’s why we guarantee same-day tooth extraction services to provide you with immediate relief. Our highly skilled dental professionals are dedicated to ensuring that your experience is as comfortable and stress-free as possible. Using the latest techniques and state-of-the-art equipment, we can quickly and safely remove the affected tooth, alleviating your pain and preventing further complications. <br/><br/>
 
-In addition to our same-day extraction services, we offer comprehensive aftercare support to help you recover swiftly and return to your daily routine with minimal disruption. Our team is always available to answer any questions and provide guidance on how to care for your mouth post-extraction. `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762878007/Gemini_Generated_Image_wkgwfnwkgwfnwkgw_xslyku.png",
+const aboutData = {
+  title: "Guaranteed Tooth Extraction  Same Day Treatment",
+  subTitle:
+    `We understand that tooth pain can be unbearable and waiting is not an option. That’s why we guarantee same-day tooth extraction services to provide you with immediate relief. Our highly skilled dental professionals are dedicated to ensuring that your experience is as comfortable and stress-free as possible. Using the latest techniques and state-of-the-art equipment, we can quickly and safely remove the affected tooth, alleviating your pain and preventing further complications. <br/><br/>In addition to our same-day extraction services, we offer comprehensive aftercare support to help you recover swiftly and return to your daily routine with minimal disruption. Our team is always available to answer any questions and provide guidance on how to care for your mouth post-extraction. `,
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717238472/jonathan-borba-hl6uG9cHW5A-unsplash_hce6yq.jpg",
+  avater: {
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717238315/New_Project_11_w7d3ls.png",
+    name: "Dr. Hassan Bhojani",
+    designation: "Founder & Principal Dentist",
+  },
 };
 
 const serviceData2 = {
@@ -123,7 +127,7 @@ const aboutData2 = {
     <br/>
     Affordable and Transparent Pricing 
     <br/><br/> `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762879322/New_Project_1_d4crdx.png",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762977045/Gemini_Generated_Image_4xpslo4xpslo4xps_c0xg3l.png",
 };
 
 const faqData = {

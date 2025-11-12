@@ -138,6 +138,10 @@ const Footer = ({ data, varient }) => {
                     {" "}
                     <a href="tel:0800 1938 786">0800 1938 786 </a>
                   </li>
+                  <li>
+                    {" "}
+                    <a href="https://wa.me/447311871456" target="_blank">44 7311 871456</a>
+                  </li>
                 </ul>
               </div>
             </div>
