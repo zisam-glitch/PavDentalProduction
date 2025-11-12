@@ -14,7 +14,7 @@ import BeforeAfter from "../Components/BeforeAfter/BeforeAfter";
 const heroData = [
   {
     mobileTitle:
-      "<span> Complete Dental Check-Up — £35   </span>  <br /> <span> Only £7.60 more than the NHS fee   </span>  <br /> <span> (£27.40), with faster access and   </span>  <br /> <span> premium service </span> ",
+      "<span> Complete Dental Check-Up </span>  <br /> <span> £35 Only £7.60 more than  the </span>  <br /> <span> NHS fee   (£27.40), with faster </span>  <br /> <span> access and   premium service </span> ",
     title:
       "<span> Complete Dental Check-Up — £35  </span>  <br /> <span> Only £7.60 more than the NHS fee (£27.40)</span>  <br /><span>  with faster access and premium service </span> ",
     flex: "none",
