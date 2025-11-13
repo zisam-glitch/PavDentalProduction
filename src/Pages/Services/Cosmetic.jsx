@@ -14,7 +14,7 @@ const heroData = {
   bgShape: "shape/hero-shape.png",
   sliderImages: [
     {
-      img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717836792/Untitled_design_13_wixltt.png",
+      img: "",
     },
   ],
   title: [""],
@@ -62,7 +62,7 @@ const aboutData = {
   5. Wider Range of Options: There are treatments available for almost every aesthetic issue you might have with your teeth.<br/><br/>
   
     `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717837906/female-patient-having-procedure-done-dentist_vnbq13.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1763030110/Picture3_nkam3m.jpg",
 };
 const aboutData2 = {
   title: "Costs and Financing  ",
@@ -80,7 +80,7 @@ const aboutData2 = {
 
 <br/> Consultation: A thorough initial consultation is a good sign of a dentist’s professionalism and concern for your needs.
   <br/><br/> `,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717793397/dentist-her-clean-orthodontist-office_23-2149195927_h0i2vo.jpg",
+  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1763030129/Picture4_ncpss1.jpg",
 };
 
 const serviceData2 = {

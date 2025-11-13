@@ -24,19 +24,17 @@ const Hero5 = ({ data }) => {
           <div className="container hero-grid">
             <div className="st-hero-text">
               <h1 className="st-hero-title cd-headline slide">
-                Cosmetic Dentistry:
-                <br /> Transforming Smiles, <br />
-                Changing Lives
+                General Dentistry: Your <br /> of Gateway to Lifelong <br />{" "}
+                Oral Health
               </h1>
               <div className="st-hero-subtitle">
-                Welcome to your definitive guide on Cosmetic Dentistry,<br/> 
-                where science meets art to enhance your smile. Explore<br/>
-                teeth whitening, porcelain veneers, and more to achieve <br/>
-                a dazzling smile and transform your confidence and  <br/> appearance.
+              Welcome to your guide to General Dentistry, covering check-ups <br />
+                to fillings. Discover how it maintains and improves your <br /> dental
+                health for lifelong healthy smiles.
               </div>
               <div className="st-hero-btn">
                 <ScrollLink
-                  to="https://pavdental.setmore.com/pav"
+                  to="https://pavdental.setmore.com/"
                   className="st-btn st-style1 st-size-medium st-color1 st-smooth-move"
                 >
                   Appointment

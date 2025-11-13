@@ -2,7 +2,7 @@ import React from "react";
 import ServiceSlider from "../../Components/Slider/ServiceSlider";
 import VideoSlider from "../../Components/Slider/VideoSlider";
 import Accordion from "../../Components/Accordion/Accordion2";
-import Hero10 from "../../Components/Hero/Hero5";
+import Hero10 from "../../Components/Hero/Hero5C";
 import Hero15 from "../../Components/Hero/Hero23";
 import Hero19 from "../../Components/Hero/Hero24";
 import Hero24 from "../../Components/Hero/Hero24";
@@ -15,11 +15,8 @@ import BookButton from "../../Components/BookButton/BookButton";
 const heroData = {
   bgImg: "images/hero-bg.jpg",
   bgShape: "shape/hero-shape.png",
-  sliderImages: [
-    {
-      img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717782459/hero-img2_1_cktwgf.png",
-    },
-  ],
+  heroImage: "https://res.cloudinary.com/db1i46uiv/image/upload/v1763028429/Picture1_ice7kw.jpg",
+  
   title: [""],
 };
 
