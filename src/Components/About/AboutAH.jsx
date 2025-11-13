@@ -47,13 +47,10 @@ const About2 = ({ data }) => {
             data-wow-delay="0.2s"
           >
             <div className="st-about-video">
-              {/* <div
-                className=""
-                style={{ backgroundImage: `url(${img})` }}
-              ></div> */}
+             
               <video
                 className=""
-                autoPlay
+                controls
                 loop
                 muted
                 src="https://res.cloudinary.com/db1i46uiv/video/upload/v1762973765/VIDEO-2025-11-05-08-22-55_z8rjnw.mp4"

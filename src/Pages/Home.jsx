@@ -23,7 +23,7 @@ const heroData = [
       "https://pavdental.setmore.com/",
     buttonBottom: "Book - £35",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762974213/IMG_9760_cr2vuc.jpg",
+      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/ac55d081-8e08-44b8-85d6-a1fe35e83000_dudx9v.jpg",
     bgRevert: "",
   },
 
