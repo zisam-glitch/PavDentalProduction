@@ -53,7 +53,7 @@ const About2 = ({ data }) => {
               ></div> */}
               <video
                 className=""
-                autoPlay
+                controls
                 loop
                 muted
                 src="https://res.cloudinary.com/db1i46uiv/video/upload/v1762973813/pav_reel_cwshbi.mp4"
