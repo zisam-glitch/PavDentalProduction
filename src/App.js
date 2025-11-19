@@ -11,6 +11,7 @@ import Contact from './Pages/Contact';
 import Team from './Pages/Team';
 import Vacancies from './Pages/Vacancies';
 import Blog from './Pages/Blog';
+import Petition from './Pages/Petition';
 import PostDetails from './Pages/PostDetails';
 import EmergencyDental from './Pages/Services/EmergencyDental';
 import MobileDentistry from './Pages/Services/MobileDentistry';
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="contact-us" element={<Contact />} />
         <Route path="vacancies" element={<Vacancies />} />
         <Route path="team" element={<Team />} />
+        <Route path="petition" element={<Petition />} />
         <Route path="blogs" element={<Blog />} />
         <Route path="post/:postId" element={<PostDetails />} />
         <Route path="*" element={<PageNotFound />} />

@@ -240,6 +240,14 @@ const Header = ({ data }) => {
                         Team
                       </NavLink>
                     </li>
+                    <li>
+                      <NavLink
+                        to="/petition"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Petition
+                      </NavLink>
+                    </li>
 
                     <li className="menu-item-has-children">
                       <NavLink

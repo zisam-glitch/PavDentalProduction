@@ -40,14 +40,15 @@ const Hero3 = ({ data }) => {
   const settings = {
     dots: false,
     infinite: true,
-    loop: true,
     speed: 800,
     autoplay: true,
-    autoplaySpeed: 30000,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
+    pauseOnHover: false,
+    pauseOnFocus: false,
   };
 
   return (
