@@ -187,11 +187,11 @@ const Header = ({ data }) => {
                             Tooth Extraction
                           </NavLink>
                         </li>
-                        {/* <li>
-                          <NavLink to="/services/salaiva-test">
-                            Saliva Testing
+                        <li>
+                          <NavLink to="/services/root-canal">
+                           Root Canal
                           </NavLink>
-                        </li> */}
+                        </li>
                         <li>
                           <NavLink to="/services/whitening">Whitening</NavLink>
                         </li>

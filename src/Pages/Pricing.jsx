@@ -33,7 +33,7 @@ const priceData2 = {
         },
         {
           title: "Out of Hours	",
-          price: "On Request",
+          price: "Available on request",
         },
       ],
     },
@@ -227,11 +227,11 @@ const priceData9 = {
         },
         {
           title: "Fissure Sealants per tooth          ",
-          price: "10",
+          price: "£10",
         },
         {
           title: "Fluoride Varnish Application           ",
-          price: "5",
+          price: "£5",
         },
       ],
     },
@@ -375,7 +375,7 @@ const priceData14 = {
         },
         {
           title: "GRILLZ",
-          price: "On request",
+          price: "Available on request",
         },
       ],
     },
@@ -558,7 +558,7 @@ const Pricing = () => {
       <Price5 data={priceData6} varient="st-color2" />
       <Price5 data={priceData7} varient="st-color2" />
       <Price5 data={priceData8} varient="st-color2" />
-      <Price5 data={priceData9} varient="st-color2" />
+      <Price6 data={priceData9} varient="st-color2" />
       <Price5 data={priceData10} varient="st-color2" />
       <Price5 data={priceData11} varient="st-color2" />
       <Price5 data={priceData12} varient="st-color2" />

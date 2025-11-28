@@ -10,6 +10,7 @@ const Testimonial = ({ img, name, designation, subTitle, varient }) => {
     >
       <div className="st-testimonial-info">
         <div className="st-testimonial-meta">
+          <img className="testimonial-img" src={img} alt="" />
           <h4 className="st-testimonial-name blue">{name}</h4>
           <div className="st-testimonial-designation">
             <svg

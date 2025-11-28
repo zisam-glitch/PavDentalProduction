@@ -23,6 +23,7 @@ import Whitening from './Pages/Services/Whitening';
 import Cosmetic from './Pages/Services/Cosmetic';
 import Aesthetics from './Pages/Services/Aesthetics';
 import CustomGrillz from './Pages/Services/CustomGrillz';
+import RootCanal from './Pages/Services/RootCanal';
 import Finance from './Pages/Services/Finance';
 import Regestration from './Pages/Regestration';
 import RegestrationFrom from './Pages/RegestrationFrom';
@@ -71,7 +72,7 @@ const App = () => {
         <Route path="/services/cosmetic" element={<Cosmetic />} />
         <Route path="/services/custom-grillz" element={<CustomGrillz />} />
         <Route path="/services/finance" element={<Finance />} />
-        {/* <Route path="/services/salaiva-test" element={<SalaivaTest />} /> */}
+        <Route path="/services/root-canal" element={<RootCanal />} />
         <Route path="/services/shop" element={<Shop />} />
 
         {/* <Route path="/services/regestration" element={<Regestration />} /> */}

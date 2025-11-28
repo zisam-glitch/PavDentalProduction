@@ -9,7 +9,7 @@ const Hero15 = ({ data }) => {
     <div className="st-hero st-style1 st-type2">
       <div className='st-height-b120 st-height-lg-b80'></div>
       <div className="container">
-        <h2 className="blue center pb-10 ">{text}</h2>
+        <h2 className="blue center pb-10 pt-11">{text}</h2>
         <div className="st-hero-in">
           <VideoBlock3 imgSrc={imgSrc} videoSrc={videoSrc} />
         </div>

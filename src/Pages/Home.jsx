@@ -131,28 +131,28 @@ const beforeAfterData = {
 
 const testimonialData = [
   {
-    img: "images/avatar2.png",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764318719/1000028225_kl5kb4.jpg",
     name: "Best Dentist I've Ever Been to",
     designation: "Executive",
     subTitle:
       "Best dentist I've ever been too, very welcoming and friendly staff, I've always had a fear of dentists but these guys were absolute brilliant made me feel very comfortable and explained what they were going to do before so I had no worries",
   },
   {
-    img: "images/avatar3.png",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764318718/1000028224_tkv5ly.jpg",
     name: "Excellent Practice & Great Staff",
     designation: "Biographer",
     subTitle:
       "This was my first visit at this practice, the reception staff were friendly and polite. The dentist I saw was patient with me and gave excellent aftercare advice. This made me feel reassured and relaxed. Excellent practice and great staff.",
   },
   {
-    img: "images/avatar4.png",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764319590/1000028226_ypdvis.jpg",
     name: "Explained Everything Before Any Work Started.",
     designation: "UX Designer",
     subTitle:
       "I would rate this as the best dentist I have ever been to. Hassan, my dentist, made me feel really relaxed through my procedures and explained everything before any work started, so thank you.",
   },
   {
-    img: "images/avatar2.png",
+    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764319589/1000028227_p9csna.jpg",
     name: "Professional & Compassionate",
     designation: "Executive",
     subTitle:

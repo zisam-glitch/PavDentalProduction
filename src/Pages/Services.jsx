@@ -45,6 +45,12 @@ export default function Services() {
       title: "Tooth Extraction",
       description: "Pain free tooth removal at pav dental care",
     },
+    {
+      link:"/services/root-canal",
+      icon: RootCanal,
+      title: "Root Canal",
+      description: "Root canal treatment at pav dental care",
+    },
 
     {
       link:"/services/whitening",
@@ -225,6 +231,13 @@ const Shop = () => (
   />
 );
 const Regestration = () => (
+  <img
+    className="w-60"
+    src="https://res.cloudinary.com/db1i46uiv/image/upload/v1759049287/icons8-registration-50_o6rmge.png"
+    alt="Cosmetic"
+  />
+);
+const RootCanal = () => (
   <img
     className="w-60"
     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1759049287/icons8-registration-50_o6rmge.png"
