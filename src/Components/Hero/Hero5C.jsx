@@ -23,10 +23,10 @@ const Hero5 = ({ data }) => {
         <div className="st-hero st-style1">
           <div className="container hero-grid">
             <div className="st-hero-text">
-              <h1 className="st-hero-title cd-headline slide">
+              <h2 className="st-hero-title cd-headline slide">
                 General Dentistry: Your <br /> of Gateway to Lifelong <br />{" "}
                 Oral Health
-              </h1>
+              </h2>
               <div className="st-hero-subtitle">
               Welcome to your guide to General Dentistry, covering check-ups <br />
                 to fillings. Discover how it maintains and improves your <br /> dental

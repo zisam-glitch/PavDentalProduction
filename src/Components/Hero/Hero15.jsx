@@ -12,7 +12,7 @@ const Hero15 = ({ data }) => {
         <div className="st-hero-in">
           <div className="st-hero-text">
             <h4 className="st-hero-mini-title st-pink"> {parser(subTitle)}</h4>
-            <h1 className="st-hero-title l13">{parser(title)}</h1>
+            <h2 className="st-hero-title l13">{parser(title)}</h2>
             <div className="st-hero-subtitle">{parser(text)}</div>
             <div className="btn-flex">
               <Link

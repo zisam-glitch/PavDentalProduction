@@ -18,9 +18,9 @@ const Hero2 = ({ data }) => {
         <div className="st-hero st-style1 legecy text-center">
           <div className="container">
             <div className="st-hero-text">
-              <h1 className="st-hero-title cd-headline clip">
+              <h2 className="st-hero-title cd-headline clip">
                 Custom Grillz and Tooth Gems <br /> Crafted for Stardom
-              </h1>
+              </h2>
               <div className="st-hero-subtitle">
                 pavDental crafts unique custom grillz for entertainment clients,
                 emphasizing quality, style,  <br /> and individuality. Each piece 

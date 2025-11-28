@@ -16,7 +16,7 @@ const heroData = [
     display: "none",
     flex: "flex",
     WhiteSubTitle:
-      "<h1>Emergency Dentist</h1> <h2> Covering Bradford 24 Hours 7 days of the week  including National and Bank Holidays </h2> £45 consultation <br /> £90* out-of-hours consultation ",
+      "<h2>Emergency Dentist</h2> <h3> Covering Bradford 24 Hours 7 days of the week  including National and Bank Holidays </h3> £45 consultation <br /> £90* out-of-hours consultation ",
     buttonTop: "ACCESSIBLE SMILES",
     buttonBottom: "Call us Now <br /> 0800 1938 786",
     sideBottom: "Book Online",

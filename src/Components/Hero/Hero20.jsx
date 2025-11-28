@@ -23,11 +23,11 @@ const Hero5 = ({ data }) => {
         <div className="st-hero st-style1">
           <div className="container hero-grid">
             <div className="st-hero-text">
-              <h1 className="st-hero-title cd-headline slide">
+              <h2 className="st-hero-title cd-headline slide">
                 Cosmetic Dentistry:
                 <br /> Transforming Smiles, <br />
                 Changing Lives
-              </h1>
+              </h2>
               <div className="st-hero-subtitle">
                 Welcome to your definitive guide on Cosmetic Dentistry,<br/> 
                 where science meets art to enhance your smile. Explore<br/>

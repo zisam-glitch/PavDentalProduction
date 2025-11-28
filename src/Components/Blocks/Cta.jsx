@@ -5,7 +5,7 @@ export default function Cta() {
   return (
     <div className="bg-bule">
       <div className="container homeCta">
-        <h1>Require emergency dental care and want same day treatment?</h1>
+        <h2>Require emergency dental care and want same day treatment?</h2>
         <Link
           to="/services/emergency-dental"
           className="st-btn st-style1 st-size-medium st-color3 st-smooth-move"

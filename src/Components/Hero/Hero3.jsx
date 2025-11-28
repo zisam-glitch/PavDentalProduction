@@ -79,14 +79,14 @@ const Hero3 = ({ data }) => {
                   </ScrollLink>
                 )}
                 {typeof elements.title === "string" && (
-                  <h1 className="st-hero-title blue mobile-visible">
+                  <h2 className="st-hero-title blue mobile-visible">
                     {parser(elements.title)}
-                  </h1>
+                  </h2>
                 )}
                 {typeof elements.mobileTitle === "string" && (
-                  <h1 className="st-hero-title blue mobile-hidden">
+                  <h2 className="st-hero-title blue mobile-hidden">
                     {parser(elements.mobileTitle)}
-                  </h1>
+                  </h2>
                 )}
                 {typeof elements.subTitle === "string" && (
                   <div className="st-hero-subtitle">

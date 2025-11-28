@@ -16,7 +16,7 @@ const Hero10 = ({ data }) => {
         <div className="st-hero st-style1">
           <div className="container">
             <div className="st-hero-text">
-              <h1 className="st-hero-title cd-headline slide">{parser(heading)}</h1>
+              <h2 className="st-hero-title cd-headline slide">{parser(heading)}</h2>
               <div className="st-hero-subtitle">{parser(subHeading)}</div>
               <div className="st-hero-btn">
                 {/* <ScrollLink
