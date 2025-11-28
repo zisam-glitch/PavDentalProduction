@@ -8,7 +8,7 @@ import TestimonialSlider from "../../Components/Slider/TestimonialSliderEmergenc
 import AboutCta2 from "../../Components/Blocks/Emergency";
 import Contact from "../../Components/Contact/Contact6";
 import BookButton from "../../Components/BookButton/BookButton";
-
+import { Helmet } from 'react-helmet-async';
 
 
 const heroData = [
@@ -158,6 +158,9 @@ const testimonialData = [
 const EmergencyDental = () => {
   return (
     <>
+      <Helmet>
+        <title>24/7 Emergency Dentist in Leeds | Book Your Urgent Appointment Now</title>
+      </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero3 data={heroData} />
       <About data={aboutData2} />

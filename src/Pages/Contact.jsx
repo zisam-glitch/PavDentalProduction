@@ -1,11 +1,14 @@
 import React from "react";
 import Contacts from "../Components/Contact/Contact5";
 import Social from "../Components/Social/Social3";
-
+import { Helmet } from 'react-helmet-async';
 
 export default function Contact() {
   return (
     <>
+    <Helmet>
+      <title>Book Your Consultation – Contact Dental Experts in Leeds</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b80 " id="home"></div>
       <div className="flex">
         <div className="col-lg-8">

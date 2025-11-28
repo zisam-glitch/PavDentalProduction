@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
+import { Helmet } from 'react-helmet-async';
 
 export default function Services() {
   const services = [
@@ -94,6 +95,9 @@ export default function Services() {
 
   return (
     <section>
+      <Helmet>
+      <title>Emergency Private Dental Clinic in Leeds | Book Your Appointment Now</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b40" id="home"></div>
       <div id="advertisers" className="advertisers-service-sec pt-5 pb-40">
         <div className="container">

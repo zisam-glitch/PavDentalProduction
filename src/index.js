@@ -9,6 +9,7 @@ import {configureStore} from '@reduxjs/toolkit'
 import { Provider } from 'react-redux';
 import pageReducer  from './Components/Regestration/features/page';
 import userReducer from './Components/Regestration/features/user'
+import { HelmetProvider } from 'react-helmet-async';
 
 const store = configureStore({
   reducer: {
@@ -22,7 +23,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
+        <HelmetProvider>
         <App />
+        </HelmetProvider>
       </Provider>
     </BrowserRouter>
   </React.StrictMode>,

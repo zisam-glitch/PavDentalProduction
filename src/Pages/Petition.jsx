@@ -5,6 +5,8 @@ import Contact from "../Components/Contact/Contact";
 import BookButton from "../Components/BookButton/BookButton";
 import Hero23 from "../Components/Hero/Hero23F";
 import parser from "html-react-parser";
+import { Helmet } from 'react-helmet-async';
+
 import {
   collection,
   addDoc,
@@ -177,6 +179,9 @@ const Petition = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Demand Better Dental Care – Support the NHS Funding Petition</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b0" id="home"></div>
       <Hero15 data={heroData} />
 

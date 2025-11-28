@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import SectionHeading from "../Components/SectionHeading/SectionHeading";
 import parser from "html-react-parser";
+import { Helmet } from 'react-helmet-async';
 
 const team = [
   {
@@ -245,6 +246,9 @@ export default function Team() {
 
   return (
     <>
+    <Helmet>
+      <title>Meet Our Expert Dental Team – Your Smile Specialists</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <div className="st-height-b60 st-height-lg-b60" />
 

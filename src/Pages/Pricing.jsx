@@ -6,6 +6,7 @@ import Price6 from "../Components/Price/Price6";
 import BrandSlider from "../Components/Slider/BrandSlider";
 import About2 from "../Components/About/About2";
 import Hero15 from "../Components/Hero/Hero27";
+import { Helmet } from 'react-helmet-async';
 
 const heroData = {
   subTitle: "",
@@ -558,6 +559,9 @@ const aboutData2 = {
 const Pricing = () => {
   return (
     <>
+    <Helmet>
+      <title>Pricing Our Treatments – Quality Dental Care That Fits Your Budget</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero15 data={heroData} />
       <PriceSlider data={priceData} />

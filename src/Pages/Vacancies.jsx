@@ -1,5 +1,6 @@
 import React from "react";
 import SectionHeading from "../Components/SectionHeading/SectionHeading";
+import { Helmet } from 'react-helmet-async';
 
 export default function Vacancies() {
   const vacancies = [
@@ -42,6 +43,9 @@ export default function Vacancies() {
 
   return (
     <>
+      <Helmet>
+      <title>Your Next Career Starts Here – Explore Our Open Vacancies</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <div className="st-height-b120 st-height-lg-b80" />
       <SectionHeading title="Vacancies" />

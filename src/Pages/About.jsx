@@ -8,6 +8,7 @@ import Text from '../Components/About/Text';
 import Hero2 from '../Components/Hero/Hero2';
 import LogoImage from '../assets/imges/logos2.png'
 import docPavImg from '../assets/imges/pavan.jpg'
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -41,6 +42,9 @@ const aboutData = {
 const About = () => {
   return (
     <>
+      <Helmet>
+      <title>24/7 Emergency & Private Dental Clinic in Bradford | Emergency Dentist – Book Appointment Now</title>
+    </Helmet>
       <Hero2 data={heroData} />
       <About2 data={aboutData2} />
       <Text />

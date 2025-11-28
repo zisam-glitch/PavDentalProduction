@@ -10,6 +10,7 @@ import TestimonialSlider from "../Components/Slider/TestimonialSlider";
 import Funfact from "../Components/Funfact/Funfact";
 import HomeCta from "../Components/Blocks/Cta";
 import BeforeAfter from "../Components/BeforeAfter/BeforeAfter";
+import { Helmet } from "react-helmet-async";
 
 const heroData = [
   {
@@ -187,6 +188,9 @@ const heroData1 = {
 const Home = () => {
   return (
     <>
+     <Helmet>
+      <title>24-Hour Private Dental Clinic in Bradford | Emergency Dental Care</title>
+    </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero3 data={heroData} />
       <HomeCta />

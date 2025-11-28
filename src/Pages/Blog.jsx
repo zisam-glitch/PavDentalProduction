@@ -1,6 +1,6 @@
 import React from 'react'
 import PostWrapper from "../Components/Post/PostWrapper";
-
+import { Helmet } from 'react-helmet-async';
 export default function Blog() {
     
 const postData = [
@@ -19,6 +19,9 @@ const postData = [
   
   return (
     <>
+    <Helmet>
+      <title>Read Our Expert Tips, Guides & Dental Blogs</title>
+    </Helmet>
     <div className="st-height-b125 st-height-lg-b80" id="home"></div>
 
     <PostWrapper data={postData} />
