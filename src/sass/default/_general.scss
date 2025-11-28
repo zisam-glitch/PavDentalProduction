@@ -221,8 +221,6 @@ textarea,
 
 .plan-container {
   background-color: #fff;
- 
-  
 }
 .condition {
   display: flex;
@@ -300,7 +298,6 @@ hr {
   margin: 15px 0;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -320,7 +317,7 @@ hr {
 //   }
 // }
 
-.st-shape-wrap>.container {
+.st-shape-wrap > .container {
   position: relative;
   z-index: 10;
 }
@@ -707,9 +704,11 @@ hr {
   height: calc(100% - 30px);
   width: calc(100% - 30px);
   border-radius: 7px;
-  background: linear-gradient(90deg,
-      rgba(146, 90, 39, 0.2) 0%,
-      rgba(207, 148, 72, 0.2) 57%);
+  background: linear-gradient(
+    90deg,
+    rgba(146, 90, 39, 0.2) 0%,
+    rgba(207, 148, 72, 0.2) 57%
+  );
   margin-top: 30px;
 
   .st-about-img-in {
@@ -892,7 +891,6 @@ hr {
 }
 
 @media screen and (max-width: 1199px) {
-
   .st-parallax-shape.st-style1,
   .st-parallax-shape.st-style2 {
     display: none;
@@ -1005,9 +1003,11 @@ hr {
   content: "";
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg,
-      rgba(146, 90, 39, 1) 0%,
-      rgba(207, 148, 72, 1) 57%);
+  background: linear-gradient(
+    90deg,
+    rgba(146, 90, 39, 1) 0%,
+    rgba(207, 148, 72, 1) 57%
+  );
   position: absolute;
   left: 0%;
   top: -98%;
@@ -1094,14 +1094,14 @@ hr {
     padding: 0 10.5px;
   }
 }
-.testimonial-img{
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    margin-bottom: 20px;
+.testimonial-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
-.hero-grid{
+.hero-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   justify-content: center;
@@ -1109,10 +1109,10 @@ hr {
   @media (max-width: 768px) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-  .hero-img{
+  .hero-img {
     display: flex;
     justify-content: end;
-    img{
+    img {
       width: 80%;
       height: 550px;
       object-fit: cover;
@@ -1127,12 +1127,12 @@ hr {
   }
 }
 
-.st-about-video{
+.st-about-video {
   padding-left: 100px;
   @media (max-width: 768px) {
     padding-left: 0;
   }
-  video{
+  video {
     width: 100%;
     height: 550px;
     object-fit: cover;
@@ -1141,7 +1141,6 @@ hr {
       height: 650px;
     }
   }
-  
 }
 
 .grid-class {
@@ -1151,8 +1150,8 @@ hr {
 
   @media (max-width: 991px) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    .st-about-video{
-      video{
+    .st-about-video {
+      video {
         width: 100%;
         height: 650px;
         padding-left: 0;
@@ -1180,6 +1179,87 @@ hr {
       color: $blue;
       text-decoration: underline;
     }
+  }
+}
+
+.workflow {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  margin: 10px 0 20px;
+}
+.step-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workflow p{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.flow-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #ffffff;
+  color: inherit;
+  position: relative;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.vacancy.v-red .flow-step {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.flow-arrow {
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.7;
+  color: inherit;
+}
+
+.flow-arrow-down {
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.7;
+  color: inherit;
+  margin-top: 8px;
+}
+
+.step-wrap:last-child .flow-arrow-down {
+  display: none;
+}
+
+.step-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 14px;
+  color: inherit;
+  border: 2px solid currentColor;
+}
+
+@media (max-width: 767px) {
+  .workflow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .flow-arrow {
+    display: none;
   }
 }
 
@@ -1229,9 +1309,11 @@ hr {
 }
 
 .bg-blue {
-  background: linear-gradient(90deg,
-      rgb(146, 90, 39) 0%,
-      rgb(207, 148, 72) 57%) !important;
+  background: linear-gradient(
+    90deg,
+    rgb(146, 90, 39) 0%,
+    rgb(207, 148, 72) 57%
+  ) !important;
 }
 
 .btn-flex {
@@ -1474,9 +1556,11 @@ $white: #ffffff;
 }
 
 .bg-gray-200 {
-  background: linear-gradient(90deg,
-      rgba(146, 90, 39, 0.1) 0%,
-      rgba(207, 148, 72, 0.1) 57%);
+  background: linear-gradient(
+    90deg,
+    rgba(146, 90, 39, 0.1) 0%,
+    rgba(207, 148, 72, 0.1) 57%
+  );
 }
 
 .py-6 {
@@ -1485,9 +1569,11 @@ $white: #ffffff;
 }
 
 .bg-primary {
-  background: linear-gradient(90deg,
-      rgba(146, 90, 39, 1) 0%,
-      rgba(207, 148, 72, 1) 57%) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(146, 90, 39, 1) 0%,
+    rgba(207, 148, 72, 1) 57%
+  ) !important;
 }
 
 .rounded-t-lg {
@@ -1550,21 +1636,22 @@ $white: #ffffff;
 .pt-10 {
   padding-top: 15px;
 }
-.pt-11{
-    padding-top: 40px;
+.pt-11 {
+  padding-top: 40px;
 }
-.Petition-form{
+.Petition-form {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr .4fr;
+  grid-template-columns: 1fr 1fr 1fr 0.4fr;
   gap: 20px;
 }
-.petition-btn{
-    width: 100%;
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    background: rgba(255, 255, 255, 0.9);
+
+.petition-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
 }
 .pb-20 {
   padding-bottom: 40px;
@@ -1641,12 +1728,12 @@ $white: #ffffff;
 }
 /* Media query for medium screens and above */
 @media (min-width: 768px) {
+ 
   .grid-container {
     width: 50%;
     padding-top: 40px;
     padding-bottom: 80px;
-    grid-template-columns: repeat(2,
-        1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* 2 columns on medium screens and above */
   }
   .mobile-hidden {
@@ -1805,7 +1892,6 @@ $white: #ffffff;
   .popiptext {
     width: 100%;
     padding: 40px 20px;
-
   }
 
   .popupcontainer {
@@ -1825,9 +1911,6 @@ $white: #ffffff;
   }
 }
 
-
-
-
 .Container {
   min-width: 940px;
   background-color: white;
@@ -1837,7 +1920,6 @@ $white: #ffffff;
   display: -ms-flexbox;
   display: flex;
   gap: 80px;
-
 }
 
 .st-site-branding2 img {
@@ -1918,7 +2000,6 @@ $white: #ffffff;
   color: #0000002c;
 }
 
-
 .navigation {
   width: 100%;
   margin-top: 25px;
@@ -1928,7 +2009,6 @@ $white: #ffffff;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-
 }
 
 .navigation button {
@@ -1945,7 +2025,11 @@ $white: #ffffff;
 }
 
 .navigation .btn2 {
-  background: linear-gradient(90deg, rgb(146, 90, 39) 0%, rgb(207, 148, 72) 57%);
+  background: linear-gradient(
+    90deg,
+    rgb(146, 90, 39) 0%,
+    rgb(207, 148, 72) 57%
+  );
   border: none;
   color: white;
   border-radius: 7px;
@@ -1957,13 +2041,11 @@ $white: #ffffff;
   justify-content: right !important;
 }
 
-
 .info .form {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px 30px;
-
 }
 
 .info .form .fields input {
@@ -1989,8 +2071,6 @@ $white: #ffffff;
   color: #000;
   font-weight: 500;
 }
-
-
 
 .info .form .fields input:focus {
   border-color: rgb(207, 148, 72);
@@ -2116,7 +2196,7 @@ $white: #ffffff;
   user-select: none;
 }
 
-.pack input[type=checkbox] {
+.pack input[type="checkbox"] {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2136,16 +2216,16 @@ $white: #ffffff;
   justify-content: center;
 }
 
-.pack input[type=checkbox]:after {
+.pack input[type="checkbox"]:after {
   content: url(../../assets/imges/icon-checkmark.svg);
   display: none;
 }
 
-.pack input[type=checkbox]:checked {
+.pack input[type="checkbox"]:checked {
   background-color: #473dff;
 }
 
-.pack input[type=checkbox]:checked::after {
+.pack input[type="checkbox"]:checked::after {
   display: block;
 }
 
@@ -2252,7 +2332,7 @@ $white: #ffffff;
   margin: 0px 20px;
 }
 
-.Plan .switch input[type=checkbox] {
+.Plan .switch input[type="checkbox"] {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2270,7 +2350,7 @@ $white: #ffffff;
   padding: 5px;
 }
 
-.Plan .switch input[type=checkbox]:after {
+.Plan .switch input[type="checkbox"]:after {
   content: "";
   width: 15px;
   height: 15px;
@@ -2278,14 +2358,14 @@ $white: #ffffff;
   background-color: white;
 }
 
-.Plan .switch input[type=checkbox]:checked {
+.Plan .switch input[type="checkbox"]:checked {
   background-color: #02295a;
   -webkit-box-pack: right;
   -ms-flex-pack: right;
   justify-content: right;
 }
 
-.Plan .switch input[type=checkbox]:checked::after {
+.Plan .switch input[type="checkbox"]:checked::after {
   -webkit-box-pack: left;
   -ms-flex-pack: left;
   justify-content: left;
@@ -2312,7 +2392,7 @@ $white: #ffffff;
 
 .planClick {
   border: #473dff 1px solid !important;
-  background-color: #F8F9FE;
+  background-color: #f8f9fe;
 }
 
 .planCard {
@@ -2334,13 +2414,35 @@ $white: #ffffff;
   font-size: 18px;
   color: #174a89;
 }
-
+.mouthgards{
+  padding: 8px 5px;
+  border-radius: 5px;
+  background: white;
+  color: rgb(146, 90, 39);
+}
+.mouthgards2{
+  padding: 8px 5px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgb(146, 90, 39) 0%, rgb(207, 148, 72) 57%);
+  color: white;
+}
+.text-white{
+  color: white;
+}
+.v-red{
+  background: linear-gradient(90deg, rgb(146, 90, 39) 0%, rgb(207, 148, 72) 57%);
+}
 .planCard .title p {
   margin-top: 10px;
   font-size: 14px;
 }
 
 @media (max-width: 768px) {
+   .Petition-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
   main {
     width: 100%;
     height: auto;
@@ -2354,7 +2456,6 @@ $white: #ffffff;
     padding: 0px;
     border-radius: 0;
     display: block;
-
   }
 
   .MainSteps {
@@ -2489,7 +2590,7 @@ $white: #ffffff;
     font-size: 15px;
   }
 
-  .pack input[type=checkbox] {
+  .pack input[type="checkbox"] {
     height: 20px;
     width: 20px;
   }
@@ -2551,7 +2652,6 @@ $white: #ffffff;
 
   img {
     width: 40px;
-
   }
 }
 
@@ -2569,11 +2669,9 @@ $white: #ffffff;
       opacity: 0.8;
       margin: 0;
     }
-
   }
 
   .filedownload {
-
     p {
       font-size: 15px;
       opacity: 0.8;
@@ -2599,8 +2697,7 @@ $white: #ffffff;
   }
 }
 
-
-.filedownload p{
+.filedownload p {
   margin-bottom: 5px;
 }
 

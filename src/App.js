@@ -30,7 +30,7 @@ import RegestrationFrom from './Pages/RegestrationFrom';
 import Shop from "./Pages/Services/Shop"
 
 import PageNotFound from './Components/404/PageNotFound';
-import SalaivaTest from './Pages/Services/SalaivaTest';
+import Mouthguards from './Pages/Services/Mouthguards';
 import PrivacyPolicy from './Pages/FooterPages.jsx/PrivacyPolicy';
 import TermsAndCondition from './Pages/FooterPages.jsx/TermsAndCondition';
 import CookiePolicy from './Pages/FooterPages.jsx/CookiePolicy';
@@ -74,7 +74,7 @@ const App = () => {
         <Route path="/services/finance" element={<Finance />} />
         <Route path="/services/root-canal" element={<RootCanal />} />
         <Route path="/services/shop" element={<Shop />} />
-
+        <Route path="/services/mouthguards" element={<Mouthguards />} />
         {/* <Route path="/services/regestration" element={<Regestration />} /> */}
 
 

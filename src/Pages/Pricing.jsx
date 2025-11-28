@@ -7,7 +7,6 @@ import BrandSlider from "../Components/Slider/BrandSlider";
 import About2 from "../Components/About/About2";
 import Hero15 from "../Components/Hero/Hero27";
 
-
 const heroData = {
   subTitle: "",
   title: "You don't have to Pay for it all at once.",
@@ -416,6 +415,10 @@ const priceData = [
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1724315007/savedSVGExport0-svg_1_jsya27.svg",
     price: "9.47",
     featureList: [
+       {
+        title: " 1x artificial intelligence dental health scan",
+        status: "0",
+      },
       {
         title: "Dedicated Whatsapp Number,",
         status: "0",
@@ -451,8 +454,12 @@ const priceData = [
     title: "SILVER",
     shape:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1724314688/savedSVGExport0-svg_trs5a3.svg",
-    price: "13.85",
+    price: "15.85",
     featureList: [
+       {
+        title: " 1x artificial intelligence dental health scan",
+        status: "0",
+      },
       {
         title: "Dedicated Whatsapp Number,",
         status: "0",
@@ -482,14 +489,19 @@ const priceData = [
         title: "2x check-up",
         status: "1",
       },
+      
     ],
   },
   {
     title: "GOLD",
     shape:
       "https://res.cloudinary.com/db1i46uiv/image/upload/v1724315007/savedSVGExport0-svg_2_k9qgjk.svg",
-    price: "18.24 ",
+    price: "19.24 ",
     featureList: [
+      {
+        title: " 1x artificial intelligence dental health scan",
+        status: "1",
+      },
       {
         title: "Dedicated Whatsapp Number,",
         status: "1",
@@ -500,9 +512,10 @@ const priceData = [
       },
 
       {
-        title: "2x hygiene treatments",
+        title: "3x hygiene visits per yer",
         status: "1",
       },
+
       {
         title: " 20% off treatment",
         status: "1",
@@ -520,7 +533,7 @@ const priceData = [
         status: "1",
       },
     ],
-  }
+  },
 ];
 
 const aboutData2 = {
@@ -545,10 +558,8 @@ const aboutData2 = {
 const Pricing = () => {
   return (
     <>
-          <div className="st-height-b125 st-height-lg-b80" id="home"></div>
-
-          <Hero15 data={heroData} />
-
+      <div className="st-height-b125 st-height-lg-b80" id="home"></div>
+      <Hero15 data={heroData} />
       <PriceSlider data={priceData} />
       <Price2 data={priceData2} varient="st-color2" />
       <Price5 data={priceData15} varient="st-color2" />

@@ -195,6 +195,9 @@ const Header = ({ data }) => {
                         <li>
                           <NavLink to="/services/whitening">Whitening</NavLink>
                         </li>
+                         <li>
+                          <NavLink to="/services/mouthguards">Mouthguards</NavLink>
+                        </li>
                         <li>
                           <NavLink to="/services/cosmetic">Cosmetic</NavLink>
                         </li>

@@ -179,7 +179,6 @@ const Petition = () => {
     <>
       <div className="st-height-b125 st-height-lg-b0" id="home"></div>
       <Hero15 data={heroData} />
-      <Hero23 data={videoData} />
 
       {/* Petition Features Grid */}
       <div className="tf-container mb-60">
@@ -263,8 +262,9 @@ const Petition = () => {
                   </div>
                   <div className="">
                     <div
-                      className=""
+                      className="p-m-20"
                       style={{
+                        padding: "",
                         display: "flex",
                         alignItems: "center",
                         gap: "10px",
@@ -304,6 +304,7 @@ const Petition = () => {
           </div>
         </div>
       </div>
+      <Hero23 data={videoData} />
 
       {/* Signatures Section */}
       <div className="tf-container mb-60">
@@ -379,6 +380,9 @@ const Petition = () => {
         .mb-60 {
           margin-bottom: 60px;
         }
+          .p-m-20{
+            padding: 0px;
+          }
 
         .tf-appointment-wrap {
           background: linear-gradient(
@@ -488,8 +492,11 @@ const Petition = () => {
 
         @media (max-width: 768px) {
           .tf-appointment-wrap {
-            padding: 30px;
+            padding: 30px 0;
           }
+            .p-m-20{
+              padding: 20px 0px;
+            }
 
           .tf-testimonial-wrap {
             grid-template-columns: 1fr;
