@@ -134,13 +134,38 @@ const Petition = () => {
 
       emailjs
         .send(
-          "service_ffl2jec",
+          "service_6dhiejm",
           "template_zywwsnx",
           templateParams,
           "U4KgC_qKXa4GzViK6"
         )
         .catch((err) => {
           console.error("Email notification failed:", err);
+        });
+
+      const replyParams = {
+        to_email: formData.email.trim(),
+        user_email: formData.email.trim(),
+        reply_to: formData.email.trim(),
+        to_name: formData.name.trim(),
+        name: formData.name.trim(),
+        user_name: formData.name.trim(),
+        subject: "Thank you for signing the Pav Dental petition",
+        message:
+          `Hi ${formData.name.trim()},\n\n` +
+          `Thank you for supporting better NHS dental access in Bradford. Your signature has been recorded.\n\n` +
+          `— Pav Dental`,
+      };
+
+      emailjs
+        .send(
+          "service_6dhiejm",
+          "template_lvjz2wl",
+          replyParams,
+          "U4KgC_qKXa4GzViK6"
+        )
+        .catch((err) => {
+          console.error("Auto-reply email failed:", err);
         });
 
       // Reset form
