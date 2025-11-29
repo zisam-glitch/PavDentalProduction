@@ -6,6 +6,7 @@ import BookButton from "../Components/BookButton/BookButton";
 import Hero23 from "../Components/Hero/Hero23F";
 import parser from "html-react-parser";
 import { Helmet } from 'react-helmet-async';
+import emailjs from "@emailjs/browser";
 
 import {
   collection,
@@ -113,6 +114,34 @@ const Petition = () => {
         location: formData.location || "United Kingdom",
         createdAt: serverTimestamp(),
       });
+
+      const templateParams = {
+        to_email: "hello@pavdental.com",
+        from_name: formData.name.trim(),
+        from_email: formData.email.trim(),
+        postcode: formData.postcode.trim(),
+        isUKResident: formData.isUKResident ? "Yes" : "No",
+        location: formData.location || "United Kingdom",
+        subject: "New Petition Signature",
+        message:
+          `New petition signature:\n` +
+          `Name: ${formData.name.trim()}\n` +
+          `Email: ${formData.email.trim()}\n` +
+          `Postcode: ${formData.postcode.trim()}\n` +
+          `UK Resident: ${formData.isUKResident ? "Yes" : "No"}\n` +
+          `Location: ${formData.location || "United Kingdom"}`,
+      };
+
+      emailjs
+        .send(
+          "service_ffl2jec",
+          "template_zywwsnx",
+          templateParams,
+          "U4KgC_qKXa4GzViK6"
+        )
+        .catch((err) => {
+          console.error("Email notification failed:", err);
+        });
 
       // Reset form
       setFormData({
