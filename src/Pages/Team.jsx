@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet-async';
 
 const team = [
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526498/1000025958_6_cobm4c.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609933/1000025958_6_sysl72.jpg",
     name: "Aboo Bhojani",
     designation: "Director & Dental Engineer",
     bio: "Aboo Bhojani serves as Director and Dental Engineer at Pav Dental, bringing together technical expertise and financial governance. With a professional background as a former Tax Inspector and advanced Avensys certification in dental engineering, Aboo plays a vital role in ensuring Pav Dental operates with precision, transparency, and full compliance — both clinically and financially.",
@@ -30,7 +30,7 @@ const team = [
     qualificationstitle: "Qualifications and training",
   },
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526499/1000025959_5_u0nf67.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609933/1000025959_5_du0uls.jpg",
     name: "Dr Hassan Bhojani",
     designation: "Principal Dentist & Registered Manager",
     bio: "GDC: 262970<br />  Hassan leads Pav Dental’s clinical standards and safety systems. With a strong background in urgent dental care and complex extractions, he focuses on swift pain relief and long-term oral health planning. Hassan is meticulous about infection control, radiographic safety, and patient consent, ensuring every patient understands their options.",
@@ -50,7 +50,7 @@ const team = [
     contact: "Book with Dr Hassan — 0800 1938 786",
   },
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526499/1000025960_4_wp0wy4.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609934/1000025960_4_lhingy.jpg",
     name: "Dr Cosimo Meucci",
     designation: "Implant Dentist",
     bio: "Dr Cosimo Meucci is Pav Dental’s visiting implantologist, providing patients with advanced dental implant care and surgical expertise. With extensive experience in implant placement, bone grafting, and full-mouth rehabilitation, Dr Meucci combines surgical precision with a patient-focused approach to achieve long-lasting, natural results.",
@@ -77,7 +77,7 @@ const team = [
   },
 
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760639135/WhatsApp_Image_2025-10-17_at_12.25.11_AM_nufmbp.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609934/IMG_20251017_002435_vldvlr.jpg",
     name: "Raheela Shafiq",
     designation: "Compliance Manager",
     bio: "Raheela Shafiq leads compliance and governance at Pav Dental. With a strong focus on regulatory standards, risk management, and patient safety, she ensures that every process—from clinical care to data management—meets legal, ethical, and industry benchmarks.",
@@ -108,7 +108,7 @@ const team = [
 
 
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762883524/unnamed_2_aqgyl9.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609934/1000025963_1_jamb9z.jpg",
     name: "Waleed Javed",
     designation: "Practice Manager",
     bio: "Waleed Javed brings a strong blend of technical expertise, healthcare knowledge and leadership experience to his role at Pav Dental. His professional qualifications include a First Class Degree in Software Engineering, CCNA qualification, Level 3 Diploma in Health and Social Care, Level 5 Diploma in Leadership and Management for Adult Care, Level 3 Award in Emergency First Aid at Work, Level 3 Safeguarding Adults, GDPR and Data Protection Certification, and Infection Prevention and Control Certification.",
@@ -139,7 +139,7 @@ const team = [
   },
 
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526498/1000025961_2_ariqab.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609933/1000025961_2_bau1qy.jpg",
     name: "Uwais Ullah",
     designation: "Trainee Dental Nurse",
     bio: "Uwais is currently training as a dental nurse and is an integral part of the Pav Dental team. His calm and focused approach helps ensure every procedure runs smoothly and safely. Under the supervision of Dr. Hassan Bhojani, Uwais assists in clinical procedures, maintains infection control standards, and supports patients throughout their treatment journey.",
@@ -158,7 +158,7 @@ const team = [
   },
 
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526500/1000025962_3_mzmnob.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609934/1000025962_3_oyk1dp.jpg",
     name: "Haris Bhojani",
     designation: "Dental Assistant & Clinical Support",
     bio: "Haris plays a key role in supporting the smooth daily operation of Pav Dental’s clinical services. He assists with patient preparation, treatment coordination, and maintains the highest standards of cleanliness and efficiency in every procedure. Haris is known for his friendly manner, professionalism, and commitment to patient comfort.",
@@ -182,7 +182,7 @@ const team = [
     
   },
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760526499/1000025964_hc22os.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609934/1000025964_c1r8dl.jpg",
     name: "Sayed Shohag Rahman",
     designation: "Marketing Manager",
     bio: "Sayed oversees Pav Dental’s communications, website, seo and community outreach. He makes booking simple, keeps patients informed about offers and late-opening slots, and ensures our messages are clear and accessible",
