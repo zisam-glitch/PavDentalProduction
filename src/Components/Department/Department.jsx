@@ -16,7 +16,7 @@ const Department = () => {
         "We offer same day emergency dental care 24-hours a day, seven days a week.",
       desc: "We understand that dental emergencies can occur at any time, which is why we offer same day emergency dental care 24-hours a day, seven days a week, including National and Bank Holidays. Our dedicated team is always on hand to provide immediate and effective dental treatment, ensuring that you receive the care you need when you need it most.",
       imgUrl:
-        "https://res.cloudinary.com/db1i46uiv/image/upload/v1762974521/Untitled_design_1_bjqjnu_2_1_qtped6.png",
+        "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764673280/Group_7_2_ypzw6c.png",
     },
     {
       id: 1,
@@ -28,7 +28,7 @@ const Department = () => {
         "Enabling our patients to access treatment in the comfort of their own home.",
       desc: "Pav Dental Mobile offers comprehensive dental services delivered right to your home. With extensive experience in both traditional and mobile dentistry, we ensure top-notch care using the latest technology and equipment. Ideal for care homes, we help make your home oral-health CQC-compliant and work with NHS partners. Our modern, well-equipped mobile surgery serves patients across the UK, bringing convenience and expert dental care directly to your doorstep. Contact us at hello@pavdental.com to schedule your appointment today.",
       imgUrl:
-        "https://res.cloudinary.com/db1i46uiv/image/upload/v1716966930/Untitled_design_4_1_nuzrvi.png",
+        "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764672598/Group_7_cypyfl.png",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const Department = () => {
       subTitle:
         "Discover Botox, dermal fillers, and chemical peels. Our expert team ensures exceptional results with premium-grade products.",
       imgUrl:
-        "https://res.cloudinary.com/db1i46uiv/image/upload/v1716968992/Untitled_design_6_1_ksbean.png",
+        "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764673599/Group_7_4_h2htxw.png",
     },
     {
       id: 3,
@@ -51,7 +51,7 @@ const Department = () => {
         "Comprehensive Care from Regular Check-Ups to Advanced Treatments",
       desc: "Welcome to your guide to General Dentistry, the foundation of oral health and wellness. From routine check-ups and dental fillings to complex root canals and extractions, general dentistry services are designed to maintain and enhance your dental health. Discover the importance of early diagnosis, preventative care, and the wide range of treatments available to ensure a lifetime of healthy smiles.",
       imgUrl:
-        "https://res.cloudinary.com/db1i46uiv/image/upload/v1716969916/Untitled_design_7_1_if1vwl.png",
+        "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764673123/Group_7_1_ykfuqu.png",
       mainTitle:
         "<span> General Dentistry</span> Gateway to Lifelong Oral Health",
     },
@@ -64,7 +64,7 @@ const Department = () => {
         "Experience Immediate Relief with Our Same-Day Tooth Extraction Services",
       desc: "At Pav Dental, our experienced oral surgeons use the latest techniques and technologies to ensure a comfortable and effective treatment experience. We offer guaranteed same-day tooth extractions for immediate pain relief. With transparent pricing for simple, intermediate, and complex extractions, you can trust us for professional care that prioritizes your needs. Follow our post-operative instructions for a smooth recovery, and book your appointment today to receive compassionate, state-of-the-art dental care.",
       imgUrl:
-        "https://res.cloudinary.com/db1i46uiv/image/upload/v1716970239/Untitled_design_8_1_uoh5ym.png",
+        "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764673443/Group_7_3_ea86zd.png",
       mainTitle:
         "Swift <span> Tooth Extraction </span> Your Trusted Partner in Oral Health",
     },
@@ -161,8 +161,8 @@ const EmergencyDental = ({ isActive }) => (
   <img
     src={
       isActive
-        ? "https://res.cloudinary.com/db1i46uiv/image/upload/v1716911367/icons8-tooth-stethoscope-64_1_lq8oqi.png"
-        : "https://res.cloudinary.com/db1i46uiv/image/upload/v1724269989/icons8-tooth-stethoscope-64_wb0w03.png"
+        ? "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670984/icons8-tooth-stethoscope-64_1_xzz0r5.png"
+        : "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670983/icons8-tooth-stethoscope-64_urdlkj.png"
     }
     alt="Emergency Dental"
   />
@@ -171,8 +171,8 @@ const MobileDentistry = ({ isActive }) => (
   <img
     src={
       isActive
-        ? "https://res.cloudinary.com/db1i46uiv/image/upload/v1716962403/icons8-dentist-location-64_1_nmwtrx.png"
-        : "https://res.cloudinary.com/db1i46uiv/image/upload/v1724270037/icons8-dentist-location-64_nmipsn.png"
+        ? "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670983/icons8-dentist-location-64_1_mw5ytm.png"
+        : "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670983/icons8-dentist-location-64_el0x5n.png"
     }
     alt="Mobile Dentistry"
   />
@@ -181,8 +181,8 @@ const Aesthetics = ({ isActive }) => (
   <img
     src={
       isActive
-        ? "https://res.cloudinary.com/db1i46uiv/image/upload/v1724270695/icons8-dental-crown-90_1_mgoody.png"
-        : "https://res.cloudinary.com/db1i46uiv/image/upload/v1724270695/icons8-dental-crown-90_u0fovo.png"
+        ? "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670983/icons8-dental-crown-50_2_w3wzdc.png"
+        : "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670984/icons8-dental-crown-50_1_qtdn48.png"
     }
     alt="Aesthetics"
   />
@@ -191,8 +191,8 @@ const GeneralDentistry = ({ isActive }) => (
   <img
     src={
       isActive
-        ? "https://res.cloudinary.com/db1i46uiv/image/upload/v1716968025/icons8-set-of-teeth-50_dnmmya.png"
-        : "https://res.cloudinary.com/db1i46uiv/image/upload/v1724270786/icons8-teeth-100_gx6pnk.png"
+        ? "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764671183/icons8-set-of-teeth-50_1_lwsmkk.png"
+        : "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764671183/icons8-set-of-teeth-50_lpe9j4.png"
     }
     alt="General Dentistry"
   />
@@ -201,8 +201,8 @@ const ToothExtraction = ({ isActive }) => (
   <img
     src={
       isActive
-        ? "https://res.cloudinary.com/db1i46uiv/image/upload/v1724270862/icons8-tooth-extraction-64_1_ljklhk.png"
-        : "https://res.cloudinary.com/db1i46uiv/image/upload/v1724270862/icons8-tooth-extraction-64_zasnor.png"
+        ? "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670692/icons8-tooth-extraction-64_xbwcbm.png"
+        : "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670692/icons8-tooth-extraction-64_1_aa75bm.png"
     }
     alt="Tooth Extraction"
   />
@@ -211,8 +211,8 @@ const Whitening = ({ isActive }) => (
   <img
     src={
       isActive
-        ? "https://res.cloudinary.com/db1i46uiv/image/upload/v1724271203/icons8-tooth-whitening-64_hexq9b.png"
-        : "https://res.cloudinary.com/db1i46uiv/image/upload/v1724271203/icons8-tooth-whitening-64_1_hraots.png"
+        ? "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670692/icons8-tooth-whitening-64_1_zndn1f.png" 
+        : "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764670692/icons8-tooth-whitening-64_pltlqg.png"
     }
     alt="Whitening"
   />

@@ -56,7 +56,7 @@ const About2 = ({ data }) => {
                 controls
                 loop
                 muted
-                src="https://res.cloudinary.com/db1i46uiv/video/upload/v1762973813/pav_reel_cwshbi.mp4"
+                src="https://res.cloudinary.com/dv5noi9zl/video/upload/v1764825824/Media1_aqqzkr.mp4"
               ></video>
             </div>
           </div>

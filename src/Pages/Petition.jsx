@@ -235,6 +235,7 @@ const Petition = () => {
     <>
     <Helmet>
       <title>Demand Better Dental Care – Support the NHS Funding Petition</title>
+      <meta name="description" content="Join the NHS dental funding petition and push for better, affordable dental care across the UK. Every signature brings real change closer." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b0" id="home"></div>
       <Hero15 data={heroData} />

@@ -96,7 +96,8 @@ export default function Services() {
   return (
     <section>
       <Helmet>
-      <title>Emergency Private Dental Clinic in Leeds | Book Your Appointment Now</title>
+      <title>Emergency Private Dental Clinic in Bradford | Book Your Appointment Now</title>
+      <meta name="description" content="Need fast dental treatment in Leeds? Our Emergency Private Clinic offers same-day care. Book your appointment now." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b40" id="home"></div>
       <div id="advertisers" className="advertisers-service-sec pt-5 pb-40">

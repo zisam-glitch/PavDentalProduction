@@ -108,7 +108,7 @@ const team = [
 
 
   {
-    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764609934/1000025963_1_jamb9z.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1765307879/WhatsApp_Image_2025-12-10_at_01.17.00_0d39e521_t4h6a4.jpg",
     name: "Waleed Javed",
     designation: "Practice Manager",
     bio: "Waleed Javed brings a strong blend of technical expertise, healthcare knowledge and leadership experience to his role at Pav Dental. His professional qualifications include a First Class Degree in Software Engineering, CCNA qualification, Level 3 Diploma in Health and Social Care, Level 5 Diploma in Leadership and Management for Adult Care, Level 3 Award in Emergency First Aid at Work, Level 3 Safeguarding Adults, GDPR and Data Protection Certification, and Infection Prevention and Control Certification.",
@@ -248,6 +248,7 @@ export default function Team() {
     <>
     <Helmet>
       <title>Meet Our Expert Dental Team – Your Smile Specialists</title>
+      <meta name="description" content="Meet our skilled dental team—trusted smile specialists offering expert, caring, and professional dental treatment in Bradford." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <div className="st-height-b60 st-height-lg-b60" />

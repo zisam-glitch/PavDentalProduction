@@ -24,7 +24,7 @@ const heroData = [
       "https://pavdental.setmore.com/",
     buttonBottom: "Book - £35",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/ac55d081-8e08-44b8-85d6-a1fe35e83000_dudx9v.jpg",
+      "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826517/IMG-20251109-WA0026_n3cbcr.jpg",
     bgRevert: "",
   },
 
@@ -40,7 +40,7 @@ const heroData = [
     sideBottomLnk:
       "https://pavdental.setmore.com/",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/A257CBF2-DA06-4C7E-888B-E6360E5CD321_qmzfab.jpg",
+      "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826619/Picture1_ngtpvq.jpg",
     bgRevert: "bg-revert",
   },
   {
@@ -53,7 +53,7 @@ const heroData = [
     buttonBottomLnkottomLnk: "/services/aesthetics",
     flex: "none",
     bgImg:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1762973762/IMG_9161_ym0sgw.jpg",
+      "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826517/WhatsApp_Image_2025-12-02_at_16.53.21_3d115a57_zwj8n6.jpg",
     bgRevert: "bg-revert",
   },
 ];
@@ -65,7 +65,7 @@ const aboutData = {
     " Providing expert oral surgery, comprehensive dental hygiene assessments, cosmetic dentistry, special care services, and public health insurance assistance, our clinic ensures top-notch care for all your dental needs. Enjoy the convenience of free online appointment booking to easily schedule your visits.",
 
   avater: {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1724272295/gdc_logo-9b5f8d0667d0a597708b14cf69457ceb_muydhh_1_1_jdhkkt.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764827228/gdc_logo-9b5f8d0667d0a597708b14cf69457ceb_muydhh_1_1_jdhkkt_mo1hyi.jpg",
     name: "David Ambrose",
     designation:
       "<span>+</span>  Oral hygiene advisory & assessment <br/>   <span>+</span> Dental public health insurance <br/> <span>+</span> Free online appointment booking <br/> <span>+</span> Various cosmetic dentistry services <br/> <span>+</span> Special care dentistry services<br/> <span>+</span>  Oral surgery ",
@@ -132,28 +132,28 @@ const beforeAfterData = {
 
 const testimonialData = [
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764318719/1000028225_kl5kb4.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826858/WhatsApp_Image_2025-12-01_at_23.35.44_80dcf1dc_t8cv7n.jpg",
     name: "Best Dentist I've Ever Been to",
     designation: "Executive",
     subTitle:
       "Best dentist I've ever been too, very welcoming and friendly staff, I've always had a fear of dentists but these guys were absolute brilliant made me feel very comfortable and explained what they were going to do before so I had no worries",
   },
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764318718/1000028224_tkv5ly.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826857/WhatsApp_Image_2025-12-01_at_23.35.44_01ba890d_ld1rul.jpg",
     name: "Excellent Practice & Great Staff",
     designation: "Biographer",
     subTitle:
       "This was my first visit at this practice, the reception staff were friendly and polite. The dentist I saw was patient with me and gave excellent aftercare advice. This made me feel reassured and relaxed. Excellent practice and great staff.",
   },
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764319590/1000028226_ypdvis.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826859/WhatsApp_Image_2025-12-01_at_23.35.45_d4f14ad9_np21je.jpg",
     name: "Explained Everything Before Any Work Started.",
     designation: "UX Designer",
     subTitle:
       "I would rate this as the best dentist I have ever been to. Hassan, my dentist, made me feel really relaxed through my procedures and explained everything before any work started, so thank you.",
   },
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1764319589/1000028227_p9csna.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826861/WhatsApp_Image_2025-12-01_at_23.35.45_f789614a_jmseoc.jpg",
     name: "Professional & Compassionate",
     designation: "Executive",
     subTitle:
@@ -163,7 +163,7 @@ const testimonialData = [
 
 const postData = [
   {
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1762975548/IMG_9558_2_snqvwf.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764827361/Picture4_vrc4tp.jpg",
     title:
       "Creating a Safe and Healthy Environment: The Benefits of Installing an Air Purifier in Dental Clinics",
     date: "April 26, 2023",
@@ -182,7 +182,7 @@ const heroData1 = {
   videoSrc:
     "https://www.youtube.com/embed/zHXljj727OE?si=Uz7mq8eE5tSAvpgy",
   imgSrc:
-    "https://res.cloudinary.com/db1i46uiv/image/upload/v1755168474/Capture_edgfdk.png",
+    "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764826682/Gemini_Generated_Image_6exf956exf956exf_umaqo2.png",
 };
 
 const Home = () => {
@@ -190,6 +190,7 @@ const Home = () => {
     <>
      <Helmet>
       <title>24-Hour Private Dental Clinic in Bradford | Emergency Dental Care</title>
+      <meta name="description" content="Looking for a 24-hour private dentist in Bradford? Our clinic provides emergency, cosmetic, and general dental treatments with expert care." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero3 data={heroData} />

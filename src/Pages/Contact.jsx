@@ -7,7 +7,8 @@ export default function Contact() {
   return (
     <>
     <Helmet>
-      <title>Book Your Consultation – Contact Dental Experts in Leeds</title>
+      <title>Book Your Consultation – Contact Dental Experts in Bradford</title>
+      <meta name="description" content="your data matters. Learn how our GDPR protection policy keeps your personal information secure, confidential, and handled with full transparency." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b80 " id="home"></div>
       <div className="flex">

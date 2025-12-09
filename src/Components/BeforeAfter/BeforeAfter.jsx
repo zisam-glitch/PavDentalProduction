@@ -125,7 +125,7 @@ const BeforeAfter = ({ data }) => {
         }}
         onMouseOver={e => e.target.play()}
         onMouseOut={e => e.target.pause()}
-        src="https://res.cloudinary.com/db1i46uiv/video/upload/v1762876527/4774240_Teeth_Polishing_1280x720_ief2gr.mp4"
+        src="https://res.cloudinary.com/dv5noi9zl/video/upload/v1764827020/6037439_Teeth_Polishing_1280x720_1_urwdix.mp4"
         autoPlay
         loop
         muted

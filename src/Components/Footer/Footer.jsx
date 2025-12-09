@@ -53,7 +53,7 @@ const Footer = ({ data, varient }) => {
                   <div className="st-height-b25 st-height-lg-b25" />
                   <Social />
                   <div className="st-height-b25 st-height-lg-b25" />
-                  <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1760539339/Group_11_pbxpix.png" alt="" className="st-footer-logo" />
+                  <img src="https://res.cloudinary.com/dv5noi9zl/image/upload/v1764827716/Group_11_pbxpix_gzrrfg.png" alt="" className="st-footer-logo" />
                 </div>
               </div>
             </div>

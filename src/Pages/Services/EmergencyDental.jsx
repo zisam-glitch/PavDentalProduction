@@ -159,7 +159,8 @@ const EmergencyDental = () => {
   return (
     <>
       <Helmet>
-        <title>24/7 Emergency Dentist in Leeds | Book Your Urgent Appointment Now</title>
+        <title>24/7 Emergency Dentist in Bradford | Book Your Urgent Appointment Now</title>
+        <meta name="description" content="24/7 emergency dentist in Bradford offering fast pain relief and same-day care. Book your urgent appointment now for immediate dental treatment." />
       </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero3 data={heroData} />

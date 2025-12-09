@@ -45,6 +45,7 @@ export default function Vacancies() {
     <>
       <Helmet>
       <title>Your Next Career Starts Here – Explore Our Open Vacancies</title>
+      <meta name="description" content="Join PAV Dental and discover rewarding career opportunities. Check our open vacancies and become part of a skilled, supportive dental team." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <div className="st-height-b120 st-height-lg-b80" />

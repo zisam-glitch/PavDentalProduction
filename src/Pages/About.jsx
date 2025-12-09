@@ -26,7 +26,7 @@ const aboutData2 = {
     'The Dream and The Team    ',
   subTitle:
     "Dr. Pav's dream was shared, nurtured, and diligently planned alongside his close friend and colleague, Dr. Hassan. Together, they meticulously crafted a plan, encompassing these crucial steps: <br/> <br/>  <span>Dream : </span> Envisioning a patient-centered clinic where the best dental care meets the flexibility of mobile services.<br/> <span>Creating a Partnership : </span> Building a foundation of shared passion and complementary expertise.<br/> <span>Reaching Shared Value between the Partnership : </span> Defining their commitment to patient well-being and professional excellence.<br/> <span>Creating a Very Detailed Roadmap : </span> Outlining every stage, from cutting-edge technology acquisition to community outreach.",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1760639696/WhatsApp_Image_2025-10-17_at_12.34.25_AM_ufetsu.jpg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764610297/WhatsApp_Image_2025-12-01_at_23.30.53_018a301a_ijmhcq.jpg",
 };
 const aboutData = {
   title:
@@ -44,6 +44,7 @@ const About = () => {
     <>
       <Helmet>
       <title>24/7 Emergency & Private Dental Clinic in Bradford | Emergency Dentist – Book Appointment Now</title>
+      <meta name="description" content="24/7 emergency and private dental clinic in Bradford offering fast, reliable care. Book your appointment now for immediate dental treatment." />
     </Helmet>
       <Hero2 data={heroData} />
       <About2 data={aboutData2} />

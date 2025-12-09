@@ -385,27 +385,27 @@ const priceData14 = {
 const brandData = [
   {
     bg: "orange",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717495248/Bupa_logo.svg_v2qlvy.png",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661854/Bupa_logo_2022_fvzley.png",
   },
   {
     bg: "blue",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717495248/Denplan_Logo_yohe5s.svg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661854/download_pknjsa.png",
   },
   {
     bg: "red",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717495248/Asset_1_uc4wy8_wchvhr.svg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764662374/Simplyhealth_logo.svg_uaxu7s.png",
   },
   {
     bg: "green",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717495248/aviva-logo_cwijxx.svg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661854/Aviva_Logo.svg_m4v7yy.png",
   },
   {
     bg: "dip-blue",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717495247/vitality-logo-ellipse-pink_aj3prl.svg",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661854/Vitality-logo-pink.svg_ep9bjk.png",
   },
   {
     bg: "orange",
-    img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717495248/AXA_Logo.svg_j9wmut.png",
+    img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661854/AXA_Logo.svg_ul5h6v.png",
   },
 ];
 
@@ -413,7 +413,7 @@ const priceData = [
   {
     title: "BRONZE",
     shape:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1724315007/savedSVGExport0-svg_1_jsya27.svg",
+      "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661233/Vector_s44zgz.svg",
     price: "9.47",
     featureList: [
        {
@@ -454,7 +454,7 @@ const priceData = [
   {
     title: "SILVER",
     shape:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1724314688/savedSVGExport0-svg_trs5a3.svg",
+      "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661232/Vector_1_pgihgr.svg",
     price: "15.85",
     featureList: [
        {
@@ -496,7 +496,7 @@ const priceData = [
   {
     title: "GOLD",
     shape:
-      "https://res.cloudinary.com/db1i46uiv/image/upload/v1724315007/savedSVGExport0-svg_2_k9qgjk.svg",
+      "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764661232/Vector_2_dhu1ul.svg",
     price: "19.24 ",
     featureList: [
       {
@@ -548,7 +548,7 @@ const aboutData2 = {
   <span>Affordable Excellence: </span>We ensure that superior dental care is accessible to everyone. <br/>
   <span>Comprehensive Care: </span>From routine check-ups to advanced treatments, we offer a wide range of dental services. <br/>
   <span>Trusted Expertise: </span>Our team of skilled dental professionals is dedicated to your oral health. Visit us at Pav Dental for your dental needs, and experience first-hand our commitment to affordability and quality care.`,
-  img: "https://res.cloudinary.com/db1i46uiv/image/upload/v1717528420/doctor-doing-their-work-pediatrics-office-min_eqzds1.jpg",
+  img: "https://res.cloudinary.com/dv5noi9zl/image/upload/v1764669660/2149224127_kam82r.jpg",
   avater: {
     img: "",
     name: "",
@@ -561,6 +561,7 @@ const Pricing = () => {
     <>
     <Helmet>
       <title>Pricing Our Treatments – Quality Dental Care That Fits Your Budget</title>
+      <meta name="description" content="Get quality dental treatments at prices that fit your budget. Transparent, affordable and reliable care for every patient." />
     </Helmet>
       <div className="st-height-b125 st-height-lg-b80" id="home"></div>
       <Hero15 data={heroData} />

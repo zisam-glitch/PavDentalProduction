@@ -21,6 +21,7 @@ const postData = [
     <>
     <Helmet>
       <title>Read Our Expert Tips, Guides & Dental Blogs</title>
+      <meta name="description" content="Explore expert dental tips, guides, and blogs created to help you maintain a healthy and confident smile. Read our latest articles now." />
     </Helmet>
     <div className="st-height-b125 st-height-lg-b80" id="home"></div>
 
