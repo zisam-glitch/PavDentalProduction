@@ -202,7 +202,6 @@ const Home = () => {
       <Funfact />
       <TestimonialSlider data={testimonialData} />
       <BeforeAfter data={beforeAfterData} />
-      <PostWrapper data={postData} />
       <Contact />
     </>
   );

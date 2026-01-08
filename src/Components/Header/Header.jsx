@@ -262,7 +262,7 @@ const Header = ({ data }) => {
                     </li>
                     <li>
                       <NavLink
-                        to="/blogs"
+                        to="/blog"
                         onClick={() => setMobileToggle(false)}
                       >
                         Blogs
