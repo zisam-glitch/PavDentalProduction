@@ -85,7 +85,7 @@ const App = () => {
         <Route path="/services/custom-grillz" element={<CustomGrillz />} />
         <Route path="/services/finance" element={<Finance />} />
         <Route path="/services/root-canal" element={<RootCanal />} />
-        <Route path="/services/shop" element={<Shop />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/services/mouthguards" element={<Mouthguards />} />
         <Route path="/services/oral-hygiene" element={<OralHygiene />} />
 

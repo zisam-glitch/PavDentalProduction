@@ -250,6 +250,14 @@ const Header = ({ data }) => {
                     </li>
                     <li>
                       <NavLink
+                        to="/shop"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Shop
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
                         to="/petition"
                         onClick={() => setMobileToggle(false)}
                       >
