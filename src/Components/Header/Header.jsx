@@ -209,6 +209,11 @@ const Header = ({ data }) => {
                             Custom Grillz
                           </NavLink>
                         </li>
+                         <li>
+                          <NavLink to="/services/oral-hygiene">
+                           Oral Hygiene
+                          </NavLink>
+                        </li>
                         <li>
                           <NavLink to="/services/finance">Finance</NavLink>
                         </li>
